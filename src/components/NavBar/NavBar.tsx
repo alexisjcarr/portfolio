@@ -17,7 +17,7 @@ const NavBar: React.SFC<NavBarProps> = () => {
   };
 
   return (
-    <div style={{ display: "flex", justifyContent: "flex-start" }}>
+    <div>
       <Sidebar
         sidebar={
           <>
@@ -30,7 +30,15 @@ const NavBar: React.SFC<NavBarProps> = () => {
         styles={{ sidebar: { background: "#f0f8ff", width: "200px" } }}
         pullRight={true}
       >
-        <div onClick={(): void => onSetSidebarOpen()}>
+        <div
+          onClick={(): void => onSetSidebarOpen()}
+          style={{
+            display: "flex",
+            justifyContent: "flex-start",
+            backgroundColor: "aliceblue",
+            border: "1px solid black"
+          }}
+        >
           <Slider active={active_} />
         </div>
       </Sidebar>
