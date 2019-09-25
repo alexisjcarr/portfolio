@@ -20,21 +20,17 @@ const ProjectsList: React.SFC<ProjectsListProps> = () => {
               border: "1px solid yellowgreen"
             }}
           />
-          <p>Project: Sleep Tracker</p>
-          <p>Role: Front End Developer</p>
-          <p>
-            Tech Stack: React | React Router | Redux | Material UI | Axios | git
-          </p>
-          <p>Deployed Project:</p>
+          <h3>Sleep Tracker</h3>
+          <p>Front End Developer</p>
+          <p>React | React Router | Redux | Material UI | Axios | git</p>
           <a href="https://sleeptrackr.netlify.com" target="_blank">
-            <p>Link</p>
+            <p>Deployed Link</p>
           </a>
-          <p>Github Repo:</p>
           <a
             href="https://github.com/alexisjcarr/Sleep-Tracker-Frontend"
             target="_blank"
           >
-            <p>Link</p>
+            <p>Github Repo</p>
           </a>
         </div>
       </div>
