@@ -28,7 +28,9 @@ const NavBar: React.SFC<NavBarProps> = () => {
             <a href="#skills">
               <p>skills</p>
             </a>{" "}
-            <p>projects</p>
+            <a href="#projects">
+              <p>projects</p>
+            </a>
             <p>blog</p> <p>contact me</p>
           </>
         }
