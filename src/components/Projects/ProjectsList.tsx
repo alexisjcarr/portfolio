@@ -21,6 +21,8 @@ const ProjectsList: React.SFC<ProjectsListProps> = () => {
             }}
           />
           <p>Sleep Tracker</p>
+          <p>Role: Front End Developer</p>
+          <p>Tech Stack: React, React Router, Redux, Material UI, Axios, git</p>
           <a href="https://sleeptrackr.netlify.com" target="_blank">
             <p>Deployed Project</p>
           </a>
