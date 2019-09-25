@@ -27,7 +27,7 @@ const NavBar: React.SFC<NavBarProps> = () => {
         }
         open={sidebarOpen}
         onSetOpen={onSetSidebarOpen}
-        styles={{ sidebar: { background: "#f0f8ff", width: "200px" } }}
+        styles={{ sidebar: { background: "black", color: "yellowgreen", width: "200px" } }}
         pullRight={true}
       >
         <div
@@ -35,11 +35,10 @@ const NavBar: React.SFC<NavBarProps> = () => {
           style={{
             display: "flex",
             justifyContent: "flex-start",
-            backgroundColor: "aliceblue",
-            border: "1px solid black"
+            backgroundColor: "black"
           }}
         >
-          <Slider active={active_} />
+          <Slider active={active_} color="yellowgreen" />
         </div>
       </Sidebar>
     </div>
