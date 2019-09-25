@@ -9,7 +9,7 @@ export interface NavBarProps {}
 
 const NavBar: React.SFC<NavBarProps> = () => {
   const [sidebarOpen, setSidebarOpen] = useState(true);
-  const [active_, setActive] = useState(false);
+  const [active_, setActive] = useState(true);
 
   const onSetSidebarOpen = (): void => {
     setSidebarOpen(!sidebarOpen);
