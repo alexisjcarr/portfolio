@@ -16,8 +16,8 @@ const App: React.FC = () => {
       <Sidebar
         sidebar={
           <>
-            <h3>Menu</h3> <p>About Me</p> <p>Skills</p> <p>Projects</p>{" "}
-            <p>Blog</p> <p>Contact Me</p>{" "}
+            <h3>Menu</h3> <p>About Me</p> <p>Skills</p> <p>Projects</p>
+            <p>Blog</p> <p>Contact Me</p>
           </>
         }
         open={sidebarOpen}
