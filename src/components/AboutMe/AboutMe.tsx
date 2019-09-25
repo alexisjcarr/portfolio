@@ -23,7 +23,7 @@ const AboutMe: React.SFC<AboutMeProps> = () => {
         />
         <br />
         <br />
-        <h1>{`<alexis_carr/>`}</h1>
+        <h1>{`<alexis carr/>`}</h1>
         <br />
         <h3>fullstack software engineer</h3>
         <br />
