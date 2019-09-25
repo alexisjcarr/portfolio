@@ -7,7 +7,7 @@ export interface AboutMeProps {}
 
 const AboutMe: React.SFC<AboutMeProps> = () => {
   return (
-    <div className="container">
+    <div className="container" id="aboutme">
       <div className="card">
         <h1>about me</h1>
         <img
@@ -23,11 +23,11 @@ const AboutMe: React.SFC<AboutMeProps> = () => {
         />
         <br />
         <br />
-        <h1>{`$ ls <alexis_carr/>`}</h1>
+        <h1>{`<alexis_carr/>`}</h1>
         <br />
-        <h1>$ fullstack software engineer</h1>
+        <h3>fullstack software engineer</h3>
         <br />
-        <h1>$ let's talk |</h1>
+        <h3>let's talk</h3>
       </div>
     </div>
   );

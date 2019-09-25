@@ -21,14 +21,27 @@ const NavBar: React.SFC<NavBarProps> = () => {
       <Sidebar
         sidebar={
           <>
-            <h3>MENU</h3> <p>about me</p> <p>skills</p> <p>projects</p>
+            <h3>MENU</h3>{" "}
+            <a href="#aboutme">
+              <p>about me</p>
+            </a>{" "}
+            <a href="#skills">
+              <p>skills</p>
+            </a>{" "}
+            <p>projects</p>
             <p>blog</p> <p>contact me</p>
           </>
         }
         open={sidebarOpen}
         onSetOpen={onSetSidebarOpen}
         styles={{
-          sidebar: { background: "black", color: "yellowgreen", width: "200px" }
+          sidebar: {
+            background: "black",
+            color: "yellowgreen",
+            width: "200px",
+            position: "fixed",
+            top: "0"
+          }
         }}
         pullRight={true}
       >
@@ -37,7 +50,10 @@ const NavBar: React.SFC<NavBarProps> = () => {
           style={{
             display: "flex",
             justifyContent: "flex-start",
-            backgroundColor: "black"
+            backgroundColor: "black",
+            position: "fixed",
+            top: "0",
+            width: "100%"
           }}
         >
           <Slider active={active_} color="yellowgreen" />
