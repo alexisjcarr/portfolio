@@ -21,10 +21,13 @@ const ProjectsList: React.SFC<ProjectsListProps> = () => {
             }}
           />
           <p>Sleep Tracker</p>
-          <a href="https://sleeptrackr.netlify.com">
+          <a href="https://sleeptrackr.netlify.com" target="_blank">
             <p>Deployed Project</p>
           </a>
-          <a href="https://github.com/alexisjcarr/Sleep-Tracker-Frontend">
+          <a
+            href="https://github.com/alexisjcarr/Sleep-Tracker-Frontend"
+            target="_blank"
+          >
             <p>Github Repo</p>
           </a>
         </div>
