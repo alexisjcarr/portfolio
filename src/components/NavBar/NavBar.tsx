@@ -21,13 +21,15 @@ const NavBar: React.SFC<NavBarProps> = () => {
       <Sidebar
         sidebar={
           <>
-            <h3>Menu</h3> <p>About Me</p> <p>Skills</p> <p>Projects</p>
-            <p>Blog</p> <p>Contact Me</p>
+            <h3>MENU</h3> <p>about me</p> <p>skills</p> <p>projects</p>
+            <p>blog</p> <p>contact me</p>
           </>
         }
         open={sidebarOpen}
         onSetOpen={onSetSidebarOpen}
-        styles={{ sidebar: { background: "black", color: "yellowgreen", width: "200px" } }}
+        styles={{
+          sidebar: { background: "black", color: "yellowgreen", width: "200px" }
+        }}
         pullRight={true}
       >
         <div
