@@ -1,49 +1,78 @@
 .container {
-    .projects-card {
-        background-color: black;
-        width: 90%;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        color: yellowgreen;
+  .projects-card {
+    background-color: black;
+    width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: yellowgreen;
 
-        h1 {
-            @media (max-width: 500px) {
-                font-size: 20px;
-            }
-        }
-
-        .project {
-            h3 {
-                @media (max-width: 500px) {
-                    font-size: 13px;
-                }
-            }
-
-            p {
-                margin: 10px;
-
-                @media (max-width: 500px) {
-                    font-size: 10px;
-                }
-            }
-
-            .project-img {
-                width: 50%;
-                border: 1px solid yellowgreen;
-
-                @media (max-width: 500px) {
-                    width: 70%;
-                }
-            }
-
-            .project-img-servable {
-                width: 20%;
-                border: 1px solid yellowgreen;
-
-                @media (max-width: 500px) {
-                    width: 50%;
-                }
-            }
-        }
-
+    h1 {
+      @media (max-width: 500px) {
+        font-size: 20px;
+      }
     }
+
+    .project {
+      h3 {
+        @media (max-width: 500px) {
+          font-size: 13px;
+        }
+      }
+
+      iconP {
+        font-size: 30px;
+
+        @media (max-width: 500px) {
+          font-size: 15px;
+        }
+      }
+
+      p {
+        margin: 10px;
+
+        @media (max-width: 500px) {
+          font-size: 10px;
+        }
+      }
+
+      .project-img {
+        width: 50%;
+        border: 1px solid yellowgreen;
+
+        @media (max-width: 500px) {
+          width: 70%;
+        }
+      }
+
+      .project-img-servable {
+        width: 20%;
+        border: 1px solid yellowgreen;
+
+        @media (max-width: 500px) {
+          width: 50%;
+        }
+      }
+
+      .desc-stack {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .description {
+          text-align: center;
+          width: 48%;
+          @media (max-width: 800px) {
+            width: 100%;
+          }
+        }
+
+        .stack {
+          text-align: center;
+          width: 48%;
+          @media (max-width: 800px) {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
 }
