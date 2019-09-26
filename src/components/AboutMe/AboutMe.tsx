@@ -1,20 +1,14 @@
 import * as React from "react";
 
 import "./AboutMe.scss";
-import me from "../../me.jpg";
+import me from "../../assets/images/me.jpg";
 
-export interface AboutMeProps {}
-
-const AboutMe: React.SFC<AboutMeProps> = () => {
+const AboutMe: React.SFC = () => {
   return (
     <div className="container" id="aboutme">
       <div className="card">
         <h1>about me</h1>
-        <img
-          src={me}
-          alt="profile pic"
-          className="profile-pic"
-        />
+        <img src={me} alt="profile pic" className="profile-pic" />
         <br />
         <br />
         <h1>{`<alexis carr/>`}</h1>

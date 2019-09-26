@@ -1,4 +1,5 @@
 import * as React from "react";
+import PropTypes from "prop-types";
 
 import "./ProjectsList.scss";
 
@@ -54,6 +55,16 @@ const Project: React.SFC<ProjectProps> = ({
       <br />
     </>
   );
+};
+
+Project.propTypes = {
+  deploymentLink: PropTypes.string,
+  githubRepo: PropTypes.string,
+  role: PropTypes.string.isRequired,
+  gif: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  techStack: PropTypes.string.isRequired,
+  imgClass: PropTypes.string.isRequired
 };
 
 export default Project;

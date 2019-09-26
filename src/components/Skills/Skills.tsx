@@ -1,10 +1,8 @@
 import * as React from "react";
 
-import "./Skills.scss";
+import "./Skills.scss"
 
-export interface SkillsProps {}
-
-const Skills: React.SFC<SkillsProps> = () => {
+const Skills: React.SFC = () => {
   return (
     <div className="container" id="skills">
       <div className="skills-card">

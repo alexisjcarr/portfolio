@@ -3,15 +3,12 @@ import { render, cleanup } from "@testing-library/react";
 import { configure, shallow } from "enzyme";
 import Adapter from "enzyme-adapter-react-16";
 
-import App from "./App";
-import NavBar from "../NavBar";
-import AboutMe from "../AboutMe";
-import Projects from "../Projects";
-import Contact from "../Contact";
+import ProjectsList from "./ProjectsList";
+import Project from "./Project";
 
 configure({ adapter: new Adapter() });
 
-describe("<App />", () => {
+describe("<ProjectsList />", () => {
   let wrapper,
     originalWarning: {
       (message?: any, ...optionalParams: any[]): void;
@@ -27,12 +24,12 @@ describe("<App />", () => {
     };
 
   beforeEach(() => {
-    wrapper = shallow(<App />);
+    wrapper = shallow(<ProjectsList />);
 
     originalWarning = console.warn;
     originalError = console.error;
     console.error = jest.fn();
-    console.warn = jest.fn();
+    console.warn = jest.fn(); // temporarily sets console.warn to a jest function
   });
 
   afterEach(() => {
@@ -43,22 +40,10 @@ describe("<App />", () => {
   });
 
   it("matches snapshot", () => {
-    expect(render(<App />)).toMatchSnapshot();
+    expect(render(<ProjectsList />)).toMatchSnapshot();
   });
 
-  it("contains NavBar", () => {
-    expect(wrapper.find(NavBar)).toBeTruthy();
-  });
-
-  it("contains AboutMe", () => {
-    expect(wrapper.find(AboutMe)).toBeTruthy();
-  });
-
-  it("contains Projects", () => {
-    expect(wrapper.find(Projects)).toBeTruthy();
-  });
-
-  it("contains Contact", () => {
-    expect(wrapper.find(Contact)).toBeTruthy();
+  it("contains four(4) Projects", () => {
+    expect(wrapper.find(Project)).toHaveLength(4);
   });
 });

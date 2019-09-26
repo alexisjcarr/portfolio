@@ -1,10 +1,8 @@
 import * as React from "react";
 
-import "./Contact.scss";
+import "./Contact.scss"
 
-export interface ContactProps {}
-
-const Contact: React.SFC<ContactProps> = () => {
+const Contact: React.SFC = () => {
   return (
     <div className="container" id="contact">
       <div className="contact-card">

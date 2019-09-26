@@ -2,10 +2,10 @@ import * as React from "react";
 
 import Project from "./Project";
 
-import sleeptrackr from "../../sleeptrackr.gif";
-import demo from "../../rtsp.gif";
-import fitness from "../../fitness.gif";
-import servable from "../../servable.gif";
+import sleeptrackr from "../../assets/images/sleeptrackr.gif";
+import demo from "../../assets/images/rtsp.gif";
+import fitness from "../../assets/images/fitness.gif";
+import servable from "../../assets/images/servable.gif";
 
 import "./ProjectsList.scss";
 

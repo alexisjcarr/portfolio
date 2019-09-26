@@ -1,0 +1,1140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> matches snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="App"
+      >
+        <div>
+          <div
+            role="navigation"
+            style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; overflow: hidden;"
+          >
+            <div
+              style="z-index: 2; position: fixed; top: 50px; bottom: 0px; transition: transform .3s ease-out; will-change: transform; overflow-y: auto; background: black; color: yellowgreen; width: 200px; right: 0px; transform: translateX(100%);"
+            >
+              <h3>
+                MENU
+              </h3>
+               
+              <a
+                href="#aboutme"
+              >
+                <p>
+                  about me
+                </p>
+              </a>
+               
+              <a
+                href="#skills"
+              >
+                <p>
+                  skills
+                </p>
+              </a>
+               
+              <a
+                href="#projects"
+              >
+                <p>
+                  projects
+                </p>
+              </a>
+              <a
+                href="#contact"
+              >
+                <p>
+                  contact
+                </p>
+              </a>
+            </div>
+            <div
+              style="z-index: 1; position: fixed; top: 0px; left: 0px; right: 0px; bottom: 0px; opacity: 0; visibility: hidden; transition: opacity .3s ease-out, visibility .3s ease-out; background-color: rgba(0, 0, 0, 0.3);"
+            />
+            <div
+              style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; overflow-y: auto; transition: left .3s ease-out, right .3s ease-out;"
+            >
+              <div
+                style="display: flex; justify-content: flex-end; background-color: black; position: fixed; top: 0px; width: 100%;"
+              >
+                <button
+                  class="jsx-1383963974 BurgerSlider Burger"
+                >
+                  <div
+                    class="jsx-1383963974 BurgerBox"
+                  >
+                    <div
+                      class="jsx-1383963974 BurgerInner"
+                    />
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="container"
+          id="aboutme"
+        >
+          <div
+            class="card"
+          >
+            <h1>
+              about me
+            </h1>
+            <img
+              alt="profile pic"
+              class="profile-pic"
+              src="me.jpg"
+            />
+            <br />
+            <br />
+            <h1>
+              &lt;alexis carr/&gt;
+            </h1>
+            <br />
+            <h3>
+              fullstack software engineer | biomedical engineer | writer
+            </h3>
+            <br />
+            <h4>
+              University of Houston '16 》Texas A&M University '19 》 Lambda School '20
+            </h4>
+          </div>
+        </div>
+        <br />
+        <br />
+        <div
+          class="container"
+          id="skills"
+        >
+          <div
+            class="skills-card"
+          >
+            <h1>
+              skills
+            </h1>
+            <div
+              class="skills"
+            >
+              <div
+                class="skill"
+              >
+                <i
+                  class="icon fab fa-react"
+                />
+                <p>
+                  React
+                </p>
+              </div>
+              <div
+                class="skill"
+              >
+                <i
+                  class="icon fab fa-node"
+                />
+                <p>
+                  Node/Express
+                </p>
+              </div>
+              <div
+                class="skill"
+              >
+                <i
+                  class="icon fab fa-html5"
+                />
+                <p>
+                  HTML
+                </p>
+              </div>
+              <div
+                class="skill"
+              >
+                <i
+                  class="icon fab fa-css3-alt"
+                />
+                <p>
+                  CSS
+                </p>
+              </div>
+              <div
+                class="skill"
+              >
+                <i
+                  class="icon fab fa-js-square"
+                />
+                <p>
+                  JavaScript/TypeScript
+                </p>
+              </div>
+              <div
+                class="skill"
+              >
+                <i
+                  class="icon fab fa-sass"
+                />
+                <p>
+                  Sass
+                </p>
+              </div>
+              <div
+                class="skill"
+              >
+                <i
+                  class="icon fab fa-python"
+                />
+                <p>
+                  Python
+                </p>
+              </div>
+              <div
+                class="skill"
+              >
+                <i
+                  class="icon fab fa-git"
+                />
+                <p>
+                  git
+                </p>
+              </div>
+              <div
+                class="skill"
+              >
+                <i
+                  class="icon fas fa-database"
+                />
+                <p>
+                  Databases
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <div
+          class="container"
+          id="projects"
+        >
+          <div
+            class="projects-card"
+          >
+            <h1>
+              projects
+            </h1>
+            <br />
+            <div
+              class="project"
+            >
+              <h3>
+                Sleep Tracker
+                 
+                <a
+                  href="https://sleeptrackr.netlify.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    class="iconP fas fa-link"
+                  />
+                </a>
+                 
+                <a
+                  href="https://github.com/alexisjcarr/Sleep-Tracker-Frontend"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    class="iconP fab fa-github"
+                  />
+                </a>
+              </h3>
+              <p>
+                <span
+                  style="text-decoration: underline;"
+                >
+                  Role:
+                </span>
+                 
+                Front End Developer
+              </p>
+              <img
+                alt="app"
+                class="project-img"
+                src="sleeptrackr.gif"
+              />
+              <div
+                class="desc-stack"
+              >
+                <p
+                  class="description"
+                >
+                  <p
+                    style="text-decoration: underline;"
+                  >
+                    Description: 
+                  </p>
+                  A web app that recommends how much sleep you need using user inputs for mood and time slept.
+                </p>
+                <p
+                  class="stack"
+                >
+                  <p
+                    style="text-decoration: underline;"
+                  >
+                    Tech Stack: 
+                  </p>
+                  React | React Router | Redux | Material UI | Axios
+                </p>
+              </div>
+            </div>
+            <br />
+            <hr />
+            <br />
+            <div
+              class="project"
+            >
+              <h3>
+                Grit 'N Grind
+                 
+                <a
+                  href="https://gritngrind.fitness/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    class="iconP fas fa-link"
+                  />
+                </a>
+                 
+                <a
+                  href="https://github.com/grit-n-grind/client"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    class="iconP fab fa-github"
+                  />
+                </a>
+              </h3>
+              <p>
+                <span
+                  style="text-decoration: underline;"
+                >
+                  Role:
+                </span>
+                 
+                Front End Developer
+              </p>
+              <img
+                alt="app"
+                class="project-img"
+                src="fitness.gif"
+              />
+              <div
+                class="desc-stack"
+              >
+                <p
+                  class="description"
+                >
+                  <p
+                    style="text-decoration: underline;"
+                  >
+                    Description: 
+                  </p>
+                  The first web application of its kind: Grit-N-Grind is a fitness competition application that gyms can use to throw competitions at their local gyms.
+                </p>
+                <p
+                  class="stack"
+                >
+                  <p
+                    style="text-decoration: underline;"
+                  >
+                    Tech Stack: 
+                  </p>
+                  React | React Hooks | React Context | Firebase
+                </p>
+              </div>
+            </div>
+            <br />
+            <hr />
+            <br />
+            <div
+              class="project"
+            >
+              <h3>
+                Servable
+                 
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    class="iconP fas fa-link"
+                  />
+                </a>
+                 
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    class="iconP fab fa-github"
+                  />
+                </a>
+              </h3>
+              <p>
+                <span
+                  style="text-decoration: underline;"
+                >
+                  Role:
+                </span>
+                 
+                Fullstack Developer
+              </p>
+              <img
+                alt="app"
+                class="project-img-servable"
+                src="servable.gif"
+              />
+              <div
+                class="desc-stack"
+              >
+                <p
+                  class="description"
+                >
+                  <p
+                    style="text-decoration: underline;"
+                  >
+                    Description: 
+                  </p>
+                  Still under development. A mobile-friendly web app that matches users to volunteer opportunities via a Tinder-like interface.
+                </p>
+                <p
+                  class="stack"
+                >
+                  <p
+                    style="text-decoration: underline;"
+                  >
+                    Tech Stack: 
+                  </p>
+                  React | React Hooks | Typescript | Node | Express | PostgreSQL
+                </p>
+              </div>
+            </div>
+            <br />
+            <hr />
+            <br />
+            <div
+              class="project"
+            >
+              <h3>
+                Real-time Data Renderer
+                 
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    class="iconP fas fa-link"
+                  />
+                </a>
+                 
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    class="iconP fab fa-github"
+                  />
+                </a>
+              </h3>
+              <p>
+                <span
+                  style="text-decoration: underline;"
+                >
+                  Role:
+                </span>
+                 
+                Front End Developer | Data Viz Engineer
+              </p>
+              <img
+                alt="app"
+                class="project-img"
+                src="rtsp.gif"
+              />
+              <div
+                class="desc-stack"
+              >
+                <p
+                  class="description"
+                >
+                  <p
+                    style="text-decoration: underline;"
+                  >
+                    Description: 
+                  </p>
+                  TBA
+                </p>
+                <p
+                  class="stack"
+                >
+                  <p
+                    style="text-decoration: underline;"
+                  >
+                    Tech Stack: 
+                  </p>
+                  React | React Hooks | SocketIO
+                </p>
+              </div>
+            </div>
+            <br />
+          </div>
+        </div>
+        <br />
+        <br />
+        <div
+          class="container"
+          id="contact"
+        >
+          <div
+            class="contact-card"
+          >
+            <h3>
+              contact
+            </h3>
+            <a
+              href="https://www.linkedin.com/in/alexis-j-carr"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <i
+                class="icon fab fa-linkedin"
+              />
+            </a>
+            <a
+              href="https://github.com/alexisjcarr"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <i
+                class="icon fab fa-github"
+              />
+            </a>
+            <a
+              href="https://medium.com/@acarr59"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <i
+                class="icon fab fa-medium"
+              />
+            </a>
+            <a
+              href="mailto:acarr59@gmail.com"
+            >
+              <i
+                class="icon fas fa-envelope"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="App"
+    >
+      <div>
+        <div
+          role="navigation"
+          style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; overflow: hidden;"
+        >
+          <div
+            style="z-index: 2; position: fixed; top: 50px; bottom: 0px; transition: transform .3s ease-out; will-change: transform; overflow-y: auto; background: black; color: yellowgreen; width: 200px; right: 0px; transform: translateX(100%);"
+          >
+            <h3>
+              MENU
+            </h3>
+             
+            <a
+              href="#aboutme"
+            >
+              <p>
+                about me
+              </p>
+            </a>
+             
+            <a
+              href="#skills"
+            >
+              <p>
+                skills
+              </p>
+            </a>
+             
+            <a
+              href="#projects"
+            >
+              <p>
+                projects
+              </p>
+            </a>
+            <a
+              href="#contact"
+            >
+              <p>
+                contact
+              </p>
+            </a>
+          </div>
+          <div
+            style="z-index: 1; position: fixed; top: 0px; left: 0px; right: 0px; bottom: 0px; opacity: 0; visibility: hidden; transition: opacity .3s ease-out, visibility .3s ease-out; background-color: rgba(0, 0, 0, 0.3);"
+          />
+          <div
+            style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; overflow-y: auto; transition: left .3s ease-out, right .3s ease-out;"
+          >
+            <div
+              style="display: flex; justify-content: flex-end; background-color: black; position: fixed; top: 0px; width: 100%;"
+            >
+              <button
+                class="jsx-1383963974 BurgerSlider Burger"
+              >
+                <div
+                  class="jsx-1383963974 BurgerBox"
+                >
+                  <div
+                    class="jsx-1383963974 BurgerInner"
+                  />
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container"
+        id="aboutme"
+      >
+        <div
+          class="card"
+        >
+          <h1>
+            about me
+          </h1>
+          <img
+            alt="profile pic"
+            class="profile-pic"
+            src="me.jpg"
+          />
+          <br />
+          <br />
+          <h1>
+            &lt;alexis carr/&gt;
+          </h1>
+          <br />
+          <h3>
+            fullstack software engineer | biomedical engineer | writer
+          </h3>
+          <br />
+          <h4>
+            University of Houston '16 》Texas A&M University '19 》 Lambda School '20
+          </h4>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div
+        class="container"
+        id="skills"
+      >
+        <div
+          class="skills-card"
+        >
+          <h1>
+            skills
+          </h1>
+          <div
+            class="skills"
+          >
+            <div
+              class="skill"
+            >
+              <i
+                class="icon fab fa-react"
+              />
+              <p>
+                React
+              </p>
+            </div>
+            <div
+              class="skill"
+            >
+              <i
+                class="icon fab fa-node"
+              />
+              <p>
+                Node/Express
+              </p>
+            </div>
+            <div
+              class="skill"
+            >
+              <i
+                class="icon fab fa-html5"
+              />
+              <p>
+                HTML
+              </p>
+            </div>
+            <div
+              class="skill"
+            >
+              <i
+                class="icon fab fa-css3-alt"
+              />
+              <p>
+                CSS
+              </p>
+            </div>
+            <div
+              class="skill"
+            >
+              <i
+                class="icon fab fa-js-square"
+              />
+              <p>
+                JavaScript/TypeScript
+              </p>
+            </div>
+            <div
+              class="skill"
+            >
+              <i
+                class="icon fab fa-sass"
+              />
+              <p>
+                Sass
+              </p>
+            </div>
+            <div
+              class="skill"
+            >
+              <i
+                class="icon fab fa-python"
+              />
+              <p>
+                Python
+              </p>
+            </div>
+            <div
+              class="skill"
+            >
+              <i
+                class="icon fab fa-git"
+              />
+              <p>
+                git
+              </p>
+            </div>
+            <div
+              class="skill"
+            >
+              <i
+                class="icon fas fa-database"
+              />
+              <p>
+                Databases
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div
+        class="container"
+        id="projects"
+      >
+        <div
+          class="projects-card"
+        >
+          <h1>
+            projects
+          </h1>
+          <br />
+          <div
+            class="project"
+          >
+            <h3>
+              Sleep Tracker
+               
+              <a
+                href="https://sleeptrackr.netlify.com"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <i
+                  class="iconP fas fa-link"
+                />
+              </a>
+               
+              <a
+                href="https://github.com/alexisjcarr/Sleep-Tracker-Frontend"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <i
+                  class="iconP fab fa-github"
+                />
+              </a>
+            </h3>
+            <p>
+              <span
+                style="text-decoration: underline;"
+              >
+                Role:
+              </span>
+               
+              Front End Developer
+            </p>
+            <img
+              alt="app"
+              class="project-img"
+              src="sleeptrackr.gif"
+            />
+            <div
+              class="desc-stack"
+            >
+              <p
+                class="description"
+              >
+                <p
+                  style="text-decoration: underline;"
+                >
+                  Description: 
+                </p>
+                A web app that recommends how much sleep you need using user inputs for mood and time slept.
+              </p>
+              <p
+                class="stack"
+              >
+                <p
+                  style="text-decoration: underline;"
+                >
+                  Tech Stack: 
+                </p>
+                React | React Router | Redux | Material UI | Axios
+              </p>
+            </div>
+          </div>
+          <br />
+          <hr />
+          <br />
+          <div
+            class="project"
+          >
+            <h3>
+              Grit 'N Grind
+               
+              <a
+                href="https://gritngrind.fitness/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <i
+                  class="iconP fas fa-link"
+                />
+              </a>
+               
+              <a
+                href="https://github.com/grit-n-grind/client"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <i
+                  class="iconP fab fa-github"
+                />
+              </a>
+            </h3>
+            <p>
+              <span
+                style="text-decoration: underline;"
+              >
+                Role:
+              </span>
+               
+              Front End Developer
+            </p>
+            <img
+              alt="app"
+              class="project-img"
+              src="fitness.gif"
+            />
+            <div
+              class="desc-stack"
+            >
+              <p
+                class="description"
+              >
+                <p
+                  style="text-decoration: underline;"
+                >
+                  Description: 
+                </p>
+                The first web application of its kind: Grit-N-Grind is a fitness competition application that gyms can use to throw competitions at their local gyms.
+              </p>
+              <p
+                class="stack"
+              >
+                <p
+                  style="text-decoration: underline;"
+                >
+                  Tech Stack: 
+                </p>
+                React | React Hooks | React Context | Firebase
+              </p>
+            </div>
+          </div>
+          <br />
+          <hr />
+          <br />
+          <div
+            class="project"
+          >
+            <h3>
+              Servable
+               
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <i
+                  class="iconP fas fa-link"
+                />
+              </a>
+               
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <i
+                  class="iconP fab fa-github"
+                />
+              </a>
+            </h3>
+            <p>
+              <span
+                style="text-decoration: underline;"
+              >
+                Role:
+              </span>
+               
+              Fullstack Developer
+            </p>
+            <img
+              alt="app"
+              class="project-img-servable"
+              src="servable.gif"
+            />
+            <div
+              class="desc-stack"
+            >
+              <p
+                class="description"
+              >
+                <p
+                  style="text-decoration: underline;"
+                >
+                  Description: 
+                </p>
+                Still under development. A mobile-friendly web app that matches users to volunteer opportunities via a Tinder-like interface.
+              </p>
+              <p
+                class="stack"
+              >
+                <p
+                  style="text-decoration: underline;"
+                >
+                  Tech Stack: 
+                </p>
+                React | React Hooks | Typescript | Node | Express | PostgreSQL
+              </p>
+            </div>
+          </div>
+          <br />
+          <hr />
+          <br />
+          <div
+            class="project"
+          >
+            <h3>
+              Real-time Data Renderer
+               
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <i
+                  class="iconP fas fa-link"
+                />
+              </a>
+               
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <i
+                  class="iconP fab fa-github"
+                />
+              </a>
+            </h3>
+            <p>
+              <span
+                style="text-decoration: underline;"
+              >
+                Role:
+              </span>
+               
+              Front End Developer | Data Viz Engineer
+            </p>
+            <img
+              alt="app"
+              class="project-img"
+              src="rtsp.gif"
+            />
+            <div
+              class="desc-stack"
+            >
+              <p
+                class="description"
+              >
+                <p
+                  style="text-decoration: underline;"
+                >
+                  Description: 
+                </p>
+                TBA
+              </p>
+              <p
+                class="stack"
+              >
+                <p
+                  style="text-decoration: underline;"
+                >
+                  Tech Stack: 
+                </p>
+                React | React Hooks | SocketIO
+              </p>
+            </div>
+          </div>
+          <br />
+        </div>
+      </div>
+      <br />
+      <br />
+      <div
+        class="container"
+        id="contact"
+      >
+        <div
+          class="contact-card"
+        >
+          <h3>
+            contact
+          </h3>
+          <a
+            href="https://www.linkedin.com/in/alexis-j-carr"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <i
+              class="icon fab fa-linkedin"
+            />
+          </a>
+          <a
+            href="https://github.com/alexisjcarr"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <i
+              class="icon fab fa-github"
+            />
+          </a>
+          <a
+            href="https://medium.com/@acarr59"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <i
+              class="icon fab fa-medium"
+            />
+          </a>
+          <a
+            href="mailto:acarr59@gmail.com"
+          >
+            <i
+              class="icon fas fa-envelope"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
