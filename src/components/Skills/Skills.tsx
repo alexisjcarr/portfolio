@@ -28,7 +28,7 @@ const Skills: React.SFC<SkillsProps> = () => {
           </div>
           <div className="skill">
             <i className="icon fab fa-js-square"></i>
-            <p>Javascript</p>
+            <p>Javascript/Typescript</p>
           </div>
           <div className="skill">
             <i className="icon fab fa-sass"></i>
