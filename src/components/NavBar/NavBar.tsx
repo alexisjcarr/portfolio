@@ -5,9 +5,7 @@ import { Slider } from "react-burgers";
 
 import "./NavBar.scss";
 
-export interface NavBarProps {}
-
-const NavBar: React.SFC<NavBarProps> = () => {
+const NavBar: React.SFC = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [active_, setActive] = useState(false);
 
@@ -44,7 +42,7 @@ const NavBar: React.SFC<NavBarProps> = () => {
             color: "yellowgreen",
             width: "200px",
             position: "fixed",
-            top: "0"
+            top: "50px"
           }
         }}
         pullRight={true}
@@ -53,7 +51,7 @@ const NavBar: React.SFC<NavBarProps> = () => {
           onClick={(): void => onSetSidebarOpen()}
           style={{
             display: "flex",
-            justifyContent: "flex-start",
+            justifyContent: "flex-end",
             backgroundColor: "black",
             position: "fixed",
             top: "0",
