@@ -11,6 +11,7 @@ const ProjectsList: React.SFC<ProjectsListProps> = () => {
     <div className="container" id="projects">
       <div className="projects-card">
         <h1>projects</h1>
+        <br />
         <div className="project">
           <img
             src={sleeptrackr}
@@ -22,13 +23,18 @@ const ProjectsList: React.SFC<ProjectsListProps> = () => {
           />
           <h3>Sleep Tracker</h3>
           <p>Front End Developer</p>
-          <p>React | React Router | Redux | Material UI | Axios | git</p>
-          <a href="https://sleeptrackr.netlify.com" target="_blank">
+          <p>React | React Router | Redux | Material UI | Axios</p>
+          <a
+            href="https://sleeptrackr.netlify.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <p>Deployed Link</p>
           </a>
           <a
             href="https://github.com/alexisjcarr/Sleep-Tracker-Frontend"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <p>Github Repo</p>
           </a>

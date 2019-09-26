@@ -25,9 +25,12 @@ const AboutMe: React.SFC<AboutMeProps> = () => {
         <br />
         <h1>{`<alexis carr/>`}</h1>
         <br />
-        <h3>fullstack software engineer</h3>
+        <h3>fullstack software engineer | biomedical engineer | writer</h3>
         <br />
-        <h3>let's talk</h3>
+        <h4>
+          University of Houston '16 》Texas A&M University '19 》 Lambda School
+          '20
+        </h4>
       </div>
     </div>
   );

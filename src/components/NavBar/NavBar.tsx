@@ -31,7 +31,9 @@ const NavBar: React.SFC<NavBarProps> = () => {
             <a href="#projects">
               <p>projects</p>
             </a>
-            <p>blog</p> <p>contact me</p>
+            <a href="#contact">
+              <p>contact</p>
+            </a>
           </>
         }
         open={sidebarOpen}
