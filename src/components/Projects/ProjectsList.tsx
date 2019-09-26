@@ -17,10 +17,7 @@ const ProjectsList: React.SFC<ProjectsListProps> = () => {
           <img
             src={sleeptrackr}
             alt="sleeptrackr app"
-            style={{
-              width: "50%",
-              border: "1px solid yellowgreen"
-            }}
+            className="project-img"
           />
           <h3>Sleep Tracker</h3>
           <p>Front End Developer</p>
@@ -45,10 +42,7 @@ const ProjectsList: React.SFC<ProjectsListProps> = () => {
           <img
             src={demo}
             alt="realtime app"
-            style={{
-              width: "50%",
-              border: "1px solid yellowgreen"
-            }}
+            className="project-img"
           />
           <h3>Real Time Data Renderer</h3>
           <p>Front End Developer | Data Viz Engineer</p>

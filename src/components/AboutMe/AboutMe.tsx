@@ -13,13 +13,7 @@ const AboutMe: React.SFC<AboutMeProps> = () => {
         <img
           src={me}
           alt="profile pic"
-          style={{
-            height: "20%",
-            width: "20%",
-            borderRadius: "1000px",
-            border: "5px solid yellowgreen",
-            marginTop: "20px"
-          }}
+          className="profile-pic"
         />
         <br />
         <br />
