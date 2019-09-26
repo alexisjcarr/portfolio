@@ -54,7 +54,7 @@ const ProjectsList: React.SFC<ProjectsListProps> = () => {
           <p>Front End Developer | Data Viz Engineer</p>
           <p>React | React Hooks | SocketIO</p>
           <a
-            href="realtime-viz-practice.surge.sh"
+            href="http://realtime-viz-practice.surge.sh"
             target="_blank"
             rel="noopener noreferrer"
           >
