@@ -40,7 +40,7 @@ const Project: React.SFC<ProjectProps> = ({
         <p>
           <span style={{ textDecoration: "underline" }}>Role:</span> {role}
         </p>
-        <a href={deploymentLink}>
+        <a href={deploymentLink} target="_blank" rel="noopener noreferrer">
           <img src={gif} alt="app" className={imgClass} />
         </a>
         <div className="desc-stack">
