@@ -8,7 +8,7 @@ export interface ProjectProps {
   deploymentLink?: string;
   githubRepo?: string;
   role: string;
-  gif: string;
+  gif?: string;
   description: string;
   techStack: string;
   imgClass: string;
@@ -61,7 +61,7 @@ Project.propTypes = {
   deploymentLink: PropTypes.string,
   githubRepo: PropTypes.string,
   role: PropTypes.string.isRequired,
-  gif: PropTypes.string.isRequired,
+  gif: PropTypes.string,
   description: PropTypes.string.isRequired,
   techStack: PropTypes.string.isRequired,
   imgClass: PropTypes.string.isRequired

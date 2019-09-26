@@ -6,6 +6,7 @@ import sleeptrackr from "../../assets/images/sleeptrackr.gif";
 import demo from "../../assets/images/rtsp.gif";
 import fitness from "../../assets/images/fitness.gif";
 import servable from "../../assets/images/servable.gif";
+import lol from "../../assets/images/portf.gif";
 
 import "./ProjectsList.scss";
 
@@ -14,6 +15,17 @@ const ProjectsList: React.SFC = () => {
     <div className="container" id="projects">
       <div className="projects-card">
         <h1>projects</h1>
+        <Project
+          projectName="this portfolio ;)"
+          deploymentLink="https://www.alexisjcarr.com/"
+          githubRepo="https://github.com/alexisjcarr/portfolio"
+          role="Front End Developer"
+          gif={lol}
+          description="A software developer portfolio that was coded from scratch"
+          techStack="React | React Hooks | TypeScript"
+          imgClass="project-img"
+        />
+        <hr />
         <Project
           projectName="Sleep Tracker"
           deploymentLink="https://sleeptrackr.netlify.com"
