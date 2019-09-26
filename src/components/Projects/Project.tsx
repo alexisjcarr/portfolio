@@ -40,7 +40,9 @@ const Project: React.SFC<ProjectProps> = ({
         <p>
           <span style={{ textDecoration: "underline" }}>Role:</span> {role}
         </p>
-        <img src={gif} alt="app" className={imgClass} />
+        <a href={deploymentLink}>
+          <img src={gif} alt="app" className={imgClass} />
+        </a>
         <div className="desc-stack">
           <p className="description">
             <p style={{ textDecoration: "underline" }}>Description: </p>
