@@ -21,6 +21,10 @@ const ProjectsList: React.SFC<ProjectsListProps> = () => {
           />
           <h3>Sleep Tracker</h3>
           <p>Front End Developer</p>
+          <p>
+            A web app that recommends how much sleep you need using user inputs
+            for mood and time slept.
+          </p>
           <p>React | React Router | Redux | Material UI | Axios</p>
           <a
             href="https://sleeptrackr.netlify.com"
@@ -39,13 +43,10 @@ const ProjectsList: React.SFC<ProjectsListProps> = () => {
         </div>
         <br />
         <div className="project">
-          <img
-            src={demo}
-            alt="realtime app"
-            className="project-img"
-          />
+          <img src={demo} alt="realtime app" className="project-img" />
           <h3>Real Time Data Renderer</h3>
           <p>Front End Developer | Data Viz Engineer</p>
+          <p>TBA</p>
           <p>React | React Hooks | SocketIO</p>
           <a
             href="http://realtime-viz-practice.surge.sh"
