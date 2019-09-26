@@ -34,6 +34,15 @@
                     width: 70%;
                 }
             }
+
+            .project-img-servable {
+                width: 20%;
+                border: 1px solid yellowgreen;
+
+                @media (max-width: 500px) {
+                    width: 50%;
+                }
+            }
         }
 
     }

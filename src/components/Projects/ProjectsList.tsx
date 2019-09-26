@@ -2,6 +2,8 @@ import * as React from "react";
 
 import sleeptrackr from "../../sleeptrackr.gif";
 import demo from "../../rtsp.gif";
+import fitness from "../../fitness.gif";
+import servable from "../../servable.gif";
 
 import "./ProjectsList.scss";
 
@@ -39,6 +41,53 @@ const ProjectsList: React.SFC<ProjectsListProps> = () => {
             rel="noopener noreferrer"
           >
             <p>Github Repo</p>
+          </a>
+        </div>
+        <br />
+        <div className="project">
+          <img src={fitness} alt="fitness app" className="project-img" />
+          <h3>Grit 'N Grind</h3>
+          <p>Front End Developer</p>
+          <p>
+            The first web application of its kind: Grit-N-Grind is a fitness
+            competition application that gyms can use to throw competitions at
+            their local gyms.
+          </p>
+          <p>React | React Hooks | React Context | Firebase</p>
+          <a
+            href="https://gritngrind.fitness/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p>Deployed Link</p>
+          </a>
+          <a
+            href="https://github.com/grit-n-grind/client"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p>Github Repo</p>
+          </a>
+        </div>
+        <br />
+        <div className="project">
+          <img
+            src={servable}
+            alt="community service app"
+            className="project-img-servable"
+          />
+          <h3>Servable</h3>
+          <p>Fullstack Developer</p>
+          <p>
+            Still under development. A mobile-friendly web app that matches users to volunteer
+            opportunities via a Tinder-like interface.
+          </p>
+          <p>React | React Hooks | Typescript | Node | Express | PostgreSQL</p>
+          <a>
+            <p>Deployed Link: TBA</p>
+          </a>
+          <a>
+            <p>Github Repo: TBA</p>
           </a>
         </div>
         <br />
