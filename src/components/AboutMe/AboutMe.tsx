@@ -11,9 +11,13 @@ const AboutMe: React.SFC = () => {
         <img src={me} alt="profile pic" className="profile-pic" />
         <br />
         <br />
-        <h1>{`<alexis carr/>`}</h1>
+        <h1>{`<alexis j. carr/>`}</h1>
         <br />
-        <h3>fullstack software engineer | biomedical engineer | writer</h3>
+        <h3>
+          fullstack software engineer | biomedical engineer | slam poet | writer
+        </h3>
+        <br />
+        <h3>a perpetual work in progress. i really like turtles.</h3>
         <br />
         <h4>
           University of Houston '16 》Texas A&M University '19 》 Lambda School
