@@ -62,6 +62,8 @@ const ProjectsList: React.SFC = () => {
         <hr />
         <Project
           projectName="Real-time Data Renderer"
+          deploymentLink="http://realtime-viz-practice.surge.sh/"
+          githubRepo="https://github.com/alexisjcarr/socket-io-playground-client"
           role="Front End Developer | Data Viz Engineer"
           gif={demo}
           description="TBA"
