@@ -5,7 +5,7 @@ import Project from "./Project";
 import sleeptrackr from "../../assets/images/sleeptrackr.gif";
 import demo from "../../assets/images/rtsp.gif";
 import fitness from "../../assets/images/fitness.gif";
-import servable from "../../assets/images/servable.gif";
+import servable from "../../assets/images/servable2.gif";
 import lol from "../../assets/images/portf.gif";
 
 import "./ProjectsList.scss";
