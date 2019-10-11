@@ -27,8 +27,6 @@ const ProjectsList: React.SFC = () => {
           imgClass="project-img"
         />
         <hr />
-        <div className="container" id="projects">
-      <div className="projects-card">
         <h1>projects</h1>
         <Project
           projectName="Sauti Africa Market Price Data API"
