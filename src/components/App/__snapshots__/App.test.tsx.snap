@@ -93,11 +93,15 @@ Object {
             <br />
             <br />
             <h1>
-              &lt;alexis carr/&gt;
+              &lt;alexis j. carr/&gt;
             </h1>
             <br />
             <h3>
-              fullstack software engineer | biomedical engineer | writer
+              fullstack software engineer | biomedical engineer | slam poet | writer
+            </h3>
+            <br />
+            <h3>
+              a perpetual work in progress. i really like turtles.
             </h3>
             <br />
             <h4>
@@ -230,6 +234,154 @@ Object {
               class="project"
             >
               <h3>
+                this portfolio ;)
+                 
+                <a
+                  href="https://www.alexisjcarr.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    class="iconP fas fa-link"
+                  />
+                </a>
+                 
+                <a
+                  href="https://github.com/alexisjcarr/portfolio"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    class="iconP fab fa-github"
+                  />
+                </a>
+              </h3>
+              <p>
+                <span
+                  style="text-decoration: underline;"
+                >
+                  Role:
+                </span>
+                 
+                Front End Developer
+              </p>
+              <a
+                href="https://www.alexisjcarr.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="app"
+                  class="project-img"
+                  src="portf.gif"
+                />
+              </a>
+              <div
+                class="desc-stack"
+              >
+                <p
+                  class="description"
+                >
+                  <p
+                    style="text-decoration: underline;"
+                  >
+                    Description: 
+                  </p>
+                  A software developer portfolio that was coded from scratch
+                </p>
+                <p
+                  class="stack"
+                >
+                  <p
+                    style="text-decoration: underline;"
+                  >
+                    Tech Stack: 
+                  </p>
+                  React | React Hooks | TypeScript
+                </p>
+              </div>
+            </div>
+            <br />
+            <hr />
+            <br />
+            <div
+              class="project"
+            >
+              <h3>
+                Sauti Africa Market Price Data API
+                 
+                <a
+                  href="http://price-api.sautiafrica.org"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    class="iconP fas fa-link"
+                  />
+                </a>
+                 
+                <a
+                  href="https://github.com/orgs/Lambda-School-Labs/teams/labs-17-sauti-africa-market-price-data/repositories"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    class="iconP fab fa-github"
+                  />
+                </a>
+              </h3>
+              <p>
+                <span
+                  style="text-decoration: underline;"
+                >
+                  Role:
+                </span>
+                 
+                Fullstack Software Engineer
+              </p>
+              <a
+                href="http://price-api.sautiafrica.org"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="app"
+                  class="project-img"
+                  src="ogImage.jpeg"
+                />
+              </a>
+              <div
+                class="desc-stack"
+              >
+                <p
+                  class="description"
+                >
+                  <p
+                    style="text-decoration: underline;"
+                  >
+                    Description: 
+                  </p>
+                  Sauti Africa is a non-profit organization that serves to empower cross border traders (who are predominately women) by providing real-time market prices, exchange rates and trade procedures. Sauti has done so well that other organizations, policy makers, and developers have asked for access to the data that Sauti uses for their platform. However, as it currently stands, such a public-facing data platform doesn't exist. The purpose of this app is to fill this need by providing what is essentially a pivot table fed by a RESTful backend. My team will be able to provide data in a tabular/chart form for those who aren't tech-minded and a consumable API for those who are.
+                </p>
+                <p
+                  class="stack"
+                >
+                  <p
+                    style="text-decoration: underline;"
+                  >
+                    Tech Stack: 
+                  </p>
+                  React | React Hooks | Redux | Node | Express | MySQL | Firebase
+                </p>
+              </div>
+            </div>
+            <br />
+            <hr />
+            <br />
+            <div
+              class="project"
+            >
+              <h3>
                 Sleep Tracker
                  
                 <a
@@ -261,11 +413,17 @@ Object {
                  
                 Front End Developer
               </p>
-              <img
-                alt="app"
-                class="project-img"
-                src="sleeptrackr.gif"
-              />
+              <a
+                href="https://sleeptrackr.netlify.com"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="app"
+                  class="project-img"
+                  src="sleeptrackr.gif"
+                />
+              </a>
               <div
                 class="desc-stack"
               >
@@ -329,11 +487,17 @@ Object {
                  
                 Front End Developer
               </p>
-              <img
-                alt="app"
-                class="project-img"
-                src="fitness.gif"
-              />
+              <a
+                href="https://gritngrind.fitness/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="app"
+                  class="project-img"
+                  src="fitness.gif"
+                />
+              </a>
               <div
                 class="desc-stack"
               >
@@ -393,13 +557,18 @@ Object {
                   Role:
                 </span>
                  
-                Fullstack Developer
+                Fullstack Software Engineer
               </p>
-              <img
-                alt="app"
-                class="project-img-servable"
-                src="servable.gif"
-              />
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="app"
+                  class="project-img-servable"
+                  src="servable2.gif"
+                />
+              </a>
               <div
                 class="desc-stack"
               >
@@ -435,6 +604,7 @@ Object {
                 Real-time Data Renderer
                  
                 <a
+                  href="http://realtime-viz-practice.surge.sh/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -444,6 +614,7 @@ Object {
                 </a>
                  
                 <a
+                  href="https://github.com/alexisjcarr/socket-io-playground-client"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -461,11 +632,17 @@ Object {
                  
                 Front End Developer | Data Viz Engineer
               </p>
-              <img
-                alt="app"
-                class="project-img"
-                src="rtsp.gif"
-              />
+              <a
+                href="http://realtime-viz-practice.surge.sh/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="app"
+                  class="project-img"
+                  src="rtsp.gif"
+                />
+              </a>
               <div
                 class="desc-stack"
               >
@@ -634,11 +811,15 @@ Object {
           <br />
           <br />
           <h1>
-            &lt;alexis carr/&gt;
+            &lt;alexis j. carr/&gt;
           </h1>
           <br />
           <h3>
-            fullstack software engineer | biomedical engineer | writer
+            fullstack software engineer | biomedical engineer | slam poet | writer
+          </h3>
+          <br />
+          <h3>
+            a perpetual work in progress. i really like turtles.
           </h3>
           <br />
           <h4>
@@ -771,6 +952,154 @@ Object {
             class="project"
           >
             <h3>
+              this portfolio ;)
+               
+              <a
+                href="https://www.alexisjcarr.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <i
+                  class="iconP fas fa-link"
+                />
+              </a>
+               
+              <a
+                href="https://github.com/alexisjcarr/portfolio"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <i
+                  class="iconP fab fa-github"
+                />
+              </a>
+            </h3>
+            <p>
+              <span
+                style="text-decoration: underline;"
+              >
+                Role:
+              </span>
+               
+              Front End Developer
+            </p>
+            <a
+              href="https://www.alexisjcarr.com/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img
+                alt="app"
+                class="project-img"
+                src="portf.gif"
+              />
+            </a>
+            <div
+              class="desc-stack"
+            >
+              <p
+                class="description"
+              >
+                <p
+                  style="text-decoration: underline;"
+                >
+                  Description: 
+                </p>
+                A software developer portfolio that was coded from scratch
+              </p>
+              <p
+                class="stack"
+              >
+                <p
+                  style="text-decoration: underline;"
+                >
+                  Tech Stack: 
+                </p>
+                React | React Hooks | TypeScript
+              </p>
+            </div>
+          </div>
+          <br />
+          <hr />
+          <br />
+          <div
+            class="project"
+          >
+            <h3>
+              Sauti Africa Market Price Data API
+               
+              <a
+                href="http://price-api.sautiafrica.org"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <i
+                  class="iconP fas fa-link"
+                />
+              </a>
+               
+              <a
+                href="https://github.com/orgs/Lambda-School-Labs/teams/labs-17-sauti-africa-market-price-data/repositories"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <i
+                  class="iconP fab fa-github"
+                />
+              </a>
+            </h3>
+            <p>
+              <span
+                style="text-decoration: underline;"
+              >
+                Role:
+              </span>
+               
+              Fullstack Software Engineer
+            </p>
+            <a
+              href="http://price-api.sautiafrica.org"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img
+                alt="app"
+                class="project-img"
+                src="ogImage.jpeg"
+              />
+            </a>
+            <div
+              class="desc-stack"
+            >
+              <p
+                class="description"
+              >
+                <p
+                  style="text-decoration: underline;"
+                >
+                  Description: 
+                </p>
+                Sauti Africa is a non-profit organization that serves to empower cross border traders (who are predominately women) by providing real-time market prices, exchange rates and trade procedures. Sauti has done so well that other organizations, policy makers, and developers have asked for access to the data that Sauti uses for their platform. However, as it currently stands, such a public-facing data platform doesn't exist. The purpose of this app is to fill this need by providing what is essentially a pivot table fed by a RESTful backend. My team will be able to provide data in a tabular/chart form for those who aren't tech-minded and a consumable API for those who are.
+              </p>
+              <p
+                class="stack"
+              >
+                <p
+                  style="text-decoration: underline;"
+                >
+                  Tech Stack: 
+                </p>
+                React | React Hooks | Redux | Node | Express | MySQL | Firebase
+              </p>
+            </div>
+          </div>
+          <br />
+          <hr />
+          <br />
+          <div
+            class="project"
+          >
+            <h3>
               Sleep Tracker
                
               <a
@@ -802,11 +1131,17 @@ Object {
                
               Front End Developer
             </p>
-            <img
-              alt="app"
-              class="project-img"
-              src="sleeptrackr.gif"
-            />
+            <a
+              href="https://sleeptrackr.netlify.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img
+                alt="app"
+                class="project-img"
+                src="sleeptrackr.gif"
+              />
+            </a>
             <div
               class="desc-stack"
             >
@@ -870,11 +1205,17 @@ Object {
                
               Front End Developer
             </p>
-            <img
-              alt="app"
-              class="project-img"
-              src="fitness.gif"
-            />
+            <a
+              href="https://gritngrind.fitness/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img
+                alt="app"
+                class="project-img"
+                src="fitness.gif"
+              />
+            </a>
             <div
               class="desc-stack"
             >
@@ -934,13 +1275,18 @@ Object {
                 Role:
               </span>
                
-              Fullstack Developer
+              Fullstack Software Engineer
             </p>
-            <img
-              alt="app"
-              class="project-img-servable"
-              src="servable.gif"
-            />
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img
+                alt="app"
+                class="project-img-servable"
+                src="servable2.gif"
+              />
+            </a>
             <div
               class="desc-stack"
             >
@@ -976,6 +1322,7 @@ Object {
               Real-time Data Renderer
                
               <a
+                href="http://realtime-viz-practice.surge.sh/"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -985,6 +1332,7 @@ Object {
               </a>
                
               <a
+                href="https://github.com/alexisjcarr/socket-io-playground-client"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -1002,11 +1350,17 @@ Object {
                
               Front End Developer | Data Viz Engineer
             </p>
-            <img
-              alt="app"
-              class="project-img"
-              src="rtsp.gif"
-            />
+            <a
+              href="http://realtime-viz-practice.surge.sh/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img
+                alt="app"
+                class="project-img"
+                src="rtsp.gif"
+              />
+            </a>
             <div
               class="desc-stack"
             >

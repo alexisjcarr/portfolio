@@ -12,6 +12,13 @@ import sauti from "../../assets/images/ogImage.jpeg";
 import "./ProjectsList.scss";
 
 const ProjectsList: React.SFC = () => {
+  const sautiDesc =
+    "Sauti Africa is a non-profit organization that serves to empower cross border traders (who are predominately women) by providing real-time market prices, exchange rates and trade procedures." +
+    "\n" +
+    "Sauti has done so well that other organizations, policy makers, and developers have asked for access to the data that Sauti uses for their platform. However, as it currently stands, such a public-facing data platform doesn't exist." +
+    "\n" +
+    "The purpose of this app is to fill this need by providing what is essentially a pivot table fed by a RESTful backend. My team will be able to provide data in a tabular/chart form for those who aren't tech-minded and a consumable API for those who are.";
+
   return (
     <div className="container" id="projects">
       <div className="projects-card">
@@ -33,7 +40,7 @@ const ProjectsList: React.SFC = () => {
           githubRepo="https://github.com/orgs/Lambda-School-Labs/teams/labs-17-sauti-africa-market-price-data/repositories"
           role="Fullstack Software Engineer"
           gif={sauti}
-          description="Sauti Africa is a non-profit organization that serves to empower cross border traders (who are predominately women) by providing real-time market prices, exchange rates and trade procedures. Sauti has done so well that other organizations, policy makers, and developers have asked for access to the data that Sauti uses for their platform. However, as it currently stands, such a public-facing data platform doesn't exist. The purpose of this app is to fill this need by providing what is essentially a pivot table fed by a RESTful backend. My team will be able to provide data in a tabular/chart form for those who aren't tech-minded and a consumable API for those who are."
+          description={sautiDesc}
           techStack="React | React Hooks | Redux | Node | Express | MySQL | Firebase"
           imgClass="project-img"
         />

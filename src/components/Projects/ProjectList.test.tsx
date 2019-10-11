@@ -44,6 +44,6 @@ describe("<ProjectsList />", () => {
   });
 
   it("contains four(4) Projects", () => {
-    expect(wrapper.find(Project)).toHaveLength(4);
+    expect(wrapper.find(Project)).toHaveLength(6);
   });
 });
