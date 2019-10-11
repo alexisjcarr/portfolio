@@ -7,6 +7,7 @@ import demo from "../../assets/images/rtsp.gif";
 import fitness from "../../assets/images/fitness.gif";
 import servable from "../../assets/images/servable2.gif";
 import lol from "../../assets/images/portf.gif";
+import sauti from "../../assets/images/ogImage.jpeg";
 
 import "./ProjectsList.scss";
 
@@ -23,6 +24,20 @@ const ProjectsList: React.SFC = () => {
           gif={lol}
           description="A software developer portfolio that was coded from scratch"
           techStack="React | React Hooks | TypeScript"
+          imgClass="project-img"
+        />
+        <hr />
+        <div className="container" id="projects">
+      <div className="projects-card">
+        <h1>projects</h1>
+        <Project
+          projectName="Sauti Africa Market Price Data API"
+          deploymentLink="http://price-api.sautiafrica.org"
+          githubRepo="https://github.com/orgs/Lambda-School-Labs/teams/labs-17-sauti-africa-market-price-data/repositories"
+          role="Fullstack Software Engineer"
+          gif={sauti}
+          description="A public-facing API that allows you to access Sauti Africa's market price data."
+          techStack="React | React Hooks | Redux | Node | Express | MySQL | Firebase"
           imgClass="project-img"
         />
         <hr />
@@ -52,7 +67,7 @@ const ProjectsList: React.SFC = () => {
         <hr />
         <Project
           projectName="Servable"
-          role="Fullstack Developer"
+          role="Fullstack Software Engineer"
           gif={servable}
           description="Still under development. A mobile-friendly web app that matches
           users to volunteer opportunities via a Tinder-like interface."
