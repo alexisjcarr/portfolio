@@ -27,7 +27,6 @@ const ProjectsList: React.SFC = () => {
           imgClass="project-img"
         />
         <hr />
-        <h1>projects</h1>
         <Project
           projectName="Sauti Africa Market Price Data API"
           deploymentLink="http://price-api.sautiafrica.org"
