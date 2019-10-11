@@ -33,7 +33,7 @@ const ProjectsList: React.SFC = () => {
           githubRepo="https://github.com/orgs/Lambda-School-Labs/teams/labs-17-sauti-africa-market-price-data/repositories"
           role="Fullstack Software Engineer"
           gif={sauti}
-          description="A public-facing API that allows you to access Sauti Africa's market price data."
+          description="Sauti Africa is a non-profit organization that serves to empower cross border traders (who are predominately women) by providing real-time market prices, exchange rates and trade procedures. Sauti has done so well that other organizations, policy makers, and developers have asked for access to the data that Sauti uses for their platform. However, as it currently stands, such a public-facing data platform doesn't exist. The purpose of this app is to fill this need by providing what is essentially a pivot table fed by a RESTful backend. My team will be able to provide data in a tabular/chart form for those who aren't tech-minded and a consumable API for those who are."
           techStack="React | React Hooks | Redux | Node | Express | MySQL | Firebase"
           imgClass="project-img"
         />
