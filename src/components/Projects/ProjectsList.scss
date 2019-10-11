@@ -4,6 +4,7 @@
     width: 90%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     color: yellowgreen;
+    line-height: 1.6;
 
     h1 {
       @media (max-width: 500px) {
@@ -18,7 +19,7 @@
         }
       }
 
-      iconP {
+      .iconP {
         font-size: 30px;
 
         @media (max-width: 500px) {
@@ -60,6 +61,7 @@
         .description {
           text-align: center;
           width: 48%;
+
           @media (max-width: 800px) {
             width: 100%;
           }
@@ -68,6 +70,7 @@
         .stack {
           text-align: center;
           width: 48%;
+
           @media (max-width: 800px) {
             width: 100%;
           }
