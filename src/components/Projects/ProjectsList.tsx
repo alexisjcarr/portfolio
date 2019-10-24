@@ -15,7 +15,7 @@ import "./ProjectsList.scss";
 
 const ProjectsList: React.SFC = () => {
   const sautiDesc =
-    "Still under development. Sauti Africa is a non-profit organization that serves to empower cross border traders by providing real-time market prices, exchange rates, and trade procedures. This web app provides a public-facing data that allows you to access Sauti Africa's market price data";
+    "Still under development. Sauti Africa is a non-profit organization that serves to empower cross border traders by providing real-time market prices, exchange rates, and trade procedures. This web app provides a public-facing data platform that allows for users to access Sauti Africa's market price data. ";
 
   return (
     <div className="container" id="projects">
