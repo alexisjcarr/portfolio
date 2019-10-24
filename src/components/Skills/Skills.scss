@@ -17,7 +17,7 @@
       justify-content: space-between;
 
       @media (max-width: 500px) {
-        justify-content: none;
+        justify-content: space-evenly;
       }
 
       .skill {
