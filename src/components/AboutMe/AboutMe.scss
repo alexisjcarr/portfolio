@@ -1,51 +1,51 @@
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    .card {
-        background-color: black;
-        width: 90%;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        text-align: center;
-        margin-top: 100px;
-        color: greenyellow;
+  .card {
+    background-color: black;
+    width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-top: 100px;
+    color: greenyellow;
 
-        h3 {
-            line-height: 1.6;
-        }
-
-        h4 {
-            line-height: 1.6;
-        }
-
-        @media (max-width: 500px) {
-            h1 {
-                font-size: 20px;
-            }
-
-            h3 {
-                font-size: 12px;
-                line-height: 1.6;
-            }
-
-            h4 {
-                font-size: 10px;
-                line-height: 1.6;
-            }
-        }
-
-        .profile-pic {
-            height: 20%;
-            width: 20%;
-            border-radius: 1000px;
-            border: 5px solid yellowgreen;
-            margin-top: 20px;
-
-            @media (max-width: 500px) {
-                height: 50%;
-                width: 50%;
-            }
-        }
+    h3 {
+      line-height: 1.6;
     }
+
+    h4 {
+      line-height: 1.6;
+    }
+
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 20px;
+      }
+
+      h3 {
+        font-size: 12px;
+        line-height: 1.6;
+      }
+
+      h4 {
+        font-size: 10px;
+        line-height: 1.6;
+      }
+    }
+
+    .profile-pic {
+      height: 20%;
+      width: 20%;
+      border-radius: 1000px;
+      border: 5px solid yellowgreen;
+      margin-top: 20px;
+
+      @media (max-width: 500px) {
+        height: 50%;
+        width: 50%;
+      }
+    }
+  }
 }

@@ -32,8 +32,8 @@ yarn test
 
 👤 **Alexis J. Carr**
 
-* Twitter: [@THEAlexisCarr](https://twitter.com/THEAlexisCarr)
-* Github: [@alexisjcarr](https://github.com/alexisjcarr)
+- Twitter: [@THEAlexisCarr](https://twitter.com/THEAlexisCarr)
+- Github: [@alexisjcarr](https://github.com/alexisjcarr)
 
 ## Show your support
 

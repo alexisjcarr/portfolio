@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import "./Contact.scss"
+import "./Contact.scss";
 
 const Contact: React.SFC = () => {
   return (

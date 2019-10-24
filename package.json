@@ -12,6 +12,7 @@
     "@types/react-router-dom": "^5.1.0",
     "@types/react-sidebar": "^3.0.0",
     "node-sass": "^4.12.0",
+    "prettier": "^1.18.2",
     "react": "^16.9.0",
     "react-burgers": "^1.3.0",
     "react-dom": "^16.9.0",
@@ -25,7 +26,8 @@
     "start": "HOST=localhost; react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "format": "prettier --write \"**/*.{js,scss,css,html,json,md,less,tsx}\""
   },
   "eslintConfig": {
     "extends": "react-app"
