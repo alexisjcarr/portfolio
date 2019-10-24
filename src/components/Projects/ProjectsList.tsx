@@ -10,6 +10,7 @@ import lol from "../../assets/images/portf.gif";
 import sauti from "../../assets/images/ogImage.jpeg";
 import insuline from "../../assets/images/insuline.gif";
 import zipy from "../../assets/images/zipy.jpg";
+import poster from "../../assets/images/poster.png";
 
 import "./ProjectsList.scss";
 
@@ -95,6 +96,16 @@ const ProjectsList: React.SFC = () => {
           gif={insuline}
           description="A web app that allows users to input glucose levels and predicts glucose levels over the next 24 hours."
           techStack="React | React Hooks | Context API | Redux | Node | Express | SQLite | PostgreSQL | Python | Flask"
+          imgClass="project-img"
+        />
+        <hr />
+        <Project
+          projectName="Brain-Machine Interface Algorithm"
+          deploymentLink="https://docs.google.com/presentation/d/1YMXaJxAfqej5i8ul-x1uaqbdOAa33QaIQBxmGjIrJyw/edit?usp=sharing"
+          role="Biomedical Algorithm Engineer"
+          gif={poster}
+          description="An algorithm that improves the accuracy of the decoder (the software that translates EEG signals into physical prosthetic movement) in an existing brain-machine interface system."
+          techStack="MATLAB"
           imgClass="project-img"
         />
         <hr />
