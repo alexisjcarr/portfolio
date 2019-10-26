@@ -114,7 +114,7 @@ const ProjectsList: React.SFC = () => {
           githubRepo="https://github.com/alexisjcarr/ZiPy"
           role="Data Scientist/Computational Statistician"
           gif={zipy}
-          description="A Python implementation of zero-inflated Poisson regression."
+          description="A Python package for maximum likelihood estimation of zero-inflated models for count data."
           techStack="Python | NumPy | SciPy | Pandas"
           imgClass="project-img"
         />
