@@ -47,7 +47,7 @@ const ProjectsList: React.SFC = () => {
         <hr />
         <Project
           projectName="macrolimiter"
-          deploymentLink="https://github.com/alexisjcarr/macrolimiter"
+          deploymentLink="https://www.npmjs.com/package/macrolimiter"
           githubRepo="https://github.com/alexisjcarr/macrolimiter"
           role="Backend Engineer"
           gif={npm}
