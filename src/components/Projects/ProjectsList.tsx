@@ -27,9 +27,9 @@ const ProjectsList: React.SFC = () => {
           projectName="this portfolio ;)"
           deploymentLink="https://www.alexisjcarr.com/"
           githubRepo="https://github.com/alexisjcarr/portfolio"
-          role="Front End Developer"
+          role="Front End Engineer"
           gif={lol}
-          description="A software developer portfolio that was coded from scratch"
+          description="A software engineer portfolio that was coded from scratch"
           techStack="React | React Hooks | TypeScript"
           imgClass="project-img"
         />
@@ -49,7 +49,7 @@ const ProjectsList: React.SFC = () => {
           projectName="macrolimiter"
           deploymentLink="https://github.com/alexisjcarr/macrolimiter"
           githubRepo="https://github.com/alexisjcarr/macrolimiter"
-          role="Fullstack Software Engineer"
+          role="Backend Engineer"
           gif={npm}
           description="An npm package that facilitates both the generation and validation of API keys, as well as the limiting of calls for specific API keys on key-protected routes."
           techStack="Node | Express | Redis"
@@ -60,7 +60,7 @@ const ProjectsList: React.SFC = () => {
           projectName="Sleep Tracker"
           deploymentLink="https://sleeptrackr.netlify.com"
           githubRepo="https://github.com/alexisjcarr/Sleep-Tracker-Frontend"
-          role="Front End Developer"
+          role="Front End Engineer"
           gif={sleeptrackr}
           description="A web app that recommends how much sleep you need using user inputs for mood and time slept."
           techStack="React | React Router | Redux | Material UI | Axios"
@@ -71,7 +71,7 @@ const ProjectsList: React.SFC = () => {
           projectName="Grit 'N Grind"
           deploymentLink="https://gritngrind.fitness/"
           githubRepo="https://github.com/grit-n-grind/client"
-          role="Front End Developer"
+          role="Front End Engineer"
           gif={fitness}
           description="The first web application of its kind: Grit-N-Grind is a fitness
           competition application that gyms can use to throw competitions at
@@ -94,7 +94,7 @@ const ProjectsList: React.SFC = () => {
           projectName="Real-time Data Renderer"
           deploymentLink="http://realtime-viz-practice.surge.sh/"
           githubRepo="https://github.com/alexisjcarr/socket-io-playground-client"
-          role="Front End Developer | Data Viz Engineer"
+          role="Front End Engineer | Data Viz Engineer"
           gif={demo}
           description="TBA"
           techStack="React | React Hooks | SocketIO"
@@ -126,7 +126,7 @@ const ProjectsList: React.SFC = () => {
           githubRepo="https://github.com/alexisjcarr/ZiPy"
           role="Data Scientist/Computational Statistician"
           gif={zipy}
-          description="A Python implementation of zero-inflated Poisson regression."
+          description="A Python package for maximum likelihood estimation of zero-inflated models for count data."
           techStack="Python | NumPy | SciPy | Pandas"
           imgClass="project-img"
         />
