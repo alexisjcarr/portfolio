@@ -11,6 +11,7 @@ import sauti from "../../assets/images/ogImage.jpeg";
 import insuline from "../../assets/images/insuline.gif";
 import zipy from "../../assets/images/zipy.jpg";
 import poster from "../../assets/images/poster.png";
+import npm from "../../assets/images/npm.jpeg";
 
 import "./ProjectsList.scss";
 
@@ -41,6 +42,17 @@ const ProjectsList: React.SFC = () => {
           gif={sauti}
           description={sautiDesc}
           techStack="React | React Hooks | Context API | Redux | Node | Express | Redis | Auth0 | MySQL | PostgreSQL"
+          imgClass="project-img"
+        />
+        <hr />
+        <Project
+          projectName="macrolimiter"
+          deploymentLink="https://github.com/alexisjcarr/macrolimiter"
+          githubRepo="https://github.com/alexisjcarr/macrolimiter"
+          role="Fullstack Software Engineer"
+          gif={npm}
+          description="An npm package that facilitates both the generation and validation of API keys, as well as the limiting of calls for specific API keys on key-protected routes."
+          techStack="Node | Express | Redis"
           imgClass="project-img"
         />
         <hr />
