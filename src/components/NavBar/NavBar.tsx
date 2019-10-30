@@ -32,6 +32,9 @@ const NavBar: React.SFC = () => {
             <a href="#contact">
               <p>contact</p>
             </a>
+            <a href="https://resume.creddle.io/resume/f7fqcs6v0pz">
+              <p>resume to go</p>
+            </a>
           </>
         }
         open={sidebarOpen}
