@@ -113,7 +113,7 @@ const ProjectsList: React.SFC = () => {
         <hr />
         <Project
           projectName="Brain-Machine Interface Algorithm"
-          deploymentLink="https://docs.google.com/presentation/d/1YMXaJxAfqej5i8ul-x1uaqbdOAa33QaIQBxmGjIrJyw/edit?usp=sharing"
+          deploymentLink="https://drive.google.com/uc?exportexport=download&id=1xTlCt97Mcc4zZnFkheu11CUqovmVDO3R"
           role="Biomedical Algorithm Engineer"
           gif={poster}
           description="An algorithm that improves the accuracy of the decoder (the software that translates EEG signals into physical prosthetic movement) in an existing brain-machine interface system."

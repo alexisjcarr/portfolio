@@ -33,7 +33,7 @@ const NavBar: React.SFC = () => {
               <p>contact</p>
             </a>
             <a
-              href="https://resume.creddle.io/resume/f7fqcs6v0pz"
+              href="https://drive.google.com/uc?exportexport=download&id=148nx-0y45fKz3HSHh64EmkeshYTPHAKP"
               target="_blank"
               rel="noopener noreferrer"
             >
