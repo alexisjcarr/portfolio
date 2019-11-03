@@ -1,23 +1,23 @@
-import * as React from "react";
+import * as React from 'react'
 
-import Project from "./Project";
+import Project from './Project'
 
-import sleeptrackr from "../../assets/images/sleeptrackr.gif";
-import demo from "../../assets/images/rtsp.gif";
-import fitness from "../../assets/images/fitness.gif";
-import servable from "../../assets/images/servable2.gif";
-import lol from "../../assets/images/portf.gif";
-import sauti from "../../assets/images/ogImage.jpeg";
-import insuline from "../../assets/images/insuline.gif";
-import zipy from "../../assets/images/zipy.jpg";
-import poster from "../../assets/images/poster.png";
-import npm from "../../assets/images/npm.jpeg";
+import sleeptrackr from '../../assets/images/sleeptrackr.gif'
+import demo from '../../assets/images/rtsp.gif'
+import fitness from '../../assets/images/fitness.gif'
+import servable from '../../assets/images/servable2.gif'
+import lol from '../../assets/images/portf.gif'
+import sauti from '../../assets/images/ogImage.jpeg'
+import insuline from '../../assets/images/insuline.gif'
+import zipy from '../../assets/images/zipy.jpg'
+import poster from '../../assets/images/poster.png'
+import npm from '../../assets/images/npm.jpeg'
 
-import "./ProjectsList.scss";
+import './ProjectsList.scss'
 
 const ProjectsList: React.SFC = () => {
   const sautiDesc =
-    "Still under development. Sauti Africa is a non-profit organization that serves to empower cross border traders by providing real-time market prices, exchange rates, and trade procedures. This web app provides a public-facing data platform that allows for users to access Sauti Africa's market price data. ";
+    "Still under development. Sauti Africa is a non-profit organization that serves to empower cross border traders by providing real-time market prices, exchange rates, and trade procedures. This web app provides a public-facing data platform that allows for users to access Sauti Africa's market price data. "
 
   return (
     <div className="container" id="projects">
@@ -132,7 +132,7 @@ const ProjectsList: React.SFC = () => {
         />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default ProjectsList;
+export default ProjectsList

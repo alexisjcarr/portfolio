@@ -1,17 +1,17 @@
-import * as React from "react";
-import PropTypes from "prop-types";
+import * as React from 'react'
+import PropTypes from 'prop-types'
 
-import "./ProjectsList.scss";
+import './ProjectsList.scss'
 
 export interface ProjectProps {
-  projectName: string;
-  deploymentLink?: string;
-  githubRepo?: string;
-  role: string;
-  gif?: string;
-  description: string;
-  techStack: string;
-  imgClass: string;
+  projectName: string
+  deploymentLink?: string
+  githubRepo?: string
+  role: string
+  gif?: string
+  description: string
+  techStack: string
+  imgClass: string
 }
 
 const Project: React.SFC<ProjectProps> = ({
@@ -29,35 +29,35 @@ const Project: React.SFC<ProjectProps> = ({
       <br />
       <div className="project">
         <h3>
-          {projectName}{" "}
+          {projectName}{' '}
           <a href={deploymentLink} target="_blank" rel="noopener noreferrer">
             <i className="iconP fas fa-link"></i>
-          </a>{" "}
+          </a>{' '}
           <a href={githubRepo} target="_blank" rel="noopener noreferrer">
             <i className="iconP fab fa-github"></i>
           </a>
         </h3>
         <p>
-          <span style={{ textDecoration: "underline" }}>Role:</span> {role}
+          <span style={{ textDecoration: 'underline' }}>Role:</span> {role}
         </p>
         <a href={deploymentLink} target="_blank" rel="noopener noreferrer">
           <img src={gif} alt="app" className={imgClass} />
         </a>
         <div className="desc-stack">
           <p className="description">
-            <p style={{ textDecoration: "underline" }}>Description: </p>
+            <p style={{ textDecoration: 'underline' }}>Description: </p>
             {description}
           </p>
           <p className="stack">
-            <p style={{ textDecoration: "underline" }}>Tech Stack: </p>
+            <p style={{ textDecoration: 'underline' }}>Tech Stack: </p>
             {techStack}
           </p>
         </div>
       </div>
       <br />
     </>
-  );
-};
+  )
+}
 
 Project.propTypes = {
   deploymentLink: PropTypes.string,
@@ -67,6 +67,6 @@ Project.propTypes = {
   description: PropTypes.string.isRequired,
   techStack: PropTypes.string.isRequired,
   imgClass: PropTypes.string.isRequired
-};
+}
 
-export default Project;
+export default Project

@@ -1,7 +1,7 @@
-import * as React from "react";
+import * as React from 'react'
 
-import "./AboutMe.scss";
-import me from "../../assets/images/me.jpg";
+import './AboutMe.scss'
+import me from '../../assets/images/me.jpg'
 
 const AboutMe: React.SFC = () => {
   return (
@@ -25,7 +25,7 @@ const AboutMe: React.SFC = () => {
         </h4>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default AboutMe;
+export default AboutMe

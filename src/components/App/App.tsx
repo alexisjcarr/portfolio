@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react'
 
-import NavBar from "../NavBar";
-import AboutMe from "../AboutMe";
-import Skills from "../Skills";
-import Projects from "../Projects";
-import Contact from "../Contact";
+import NavBar from '../NavBar'
+import AboutMe from '../AboutMe'
+import Skills from '../Skills'
+import Projects from '../Projects'
+import Contact from '../Contact'
 
-import "./App.scss";
+import './App.scss'
 
 const App: React.FC = () => (
   <div className="App">
@@ -22,6 +22,6 @@ const App: React.FC = () => (
     <br />
     <Contact />
   </div>
-);
+)
 
-export default App;
+export default App

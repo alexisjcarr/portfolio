@@ -47,6 +47,15 @@ Object {
                 contact
               </p>
             </a>
+            <a
+              href="https://resume.creddle.io/resume/f7fqcs6v0pz"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <p>
+                resume
+              </p>
+            </a>
           </div>
           <div
             style="z-index: 1; position: fixed; top: 0px; left: 0px; right: 0px; bottom: 0px; opacity: 0; visibility: hidden; transition: opacity .3s ease-out, visibility .3s ease-out; background-color: rgba(0, 0, 0, 0.3);"
@@ -115,6 +124,15 @@ Object {
           >
             <p>
               contact
+            </p>
+          </a>
+          <a
+            href="https://resume.creddle.io/resume/f7fqcs6v0pz"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <p>
+              resume
             </p>
           </a>
         </div>

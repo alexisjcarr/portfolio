@@ -1,31 +1,31 @@
-import React, { useState } from "react";
-import Sidebar from "react-sidebar";
-import "../../react-burgers.d.ts";
-import { Slider } from "react-burgers";
+import React, { useState } from 'react'
+import Sidebar from 'react-sidebar'
+import { Slider } from 'react-burgers'
+import '../../react-burgers.d.ts'
 
-import "./NavBar.scss";
+import './NavBar.scss'
 
 const NavBar: React.SFC = () => {
-  const [sidebarOpen, setSidebarOpen] = useState(false);
-  const [active_, setActive] = useState(false);
+  const [sidebarOpen, setSidebarOpen] = useState(false)
+  const [active_, setActive] = useState(false)
 
   const onSetSidebarOpen = (): void => {
-    setSidebarOpen(!sidebarOpen);
-    setActive(!active_);
-  };
+    setSidebarOpen(!sidebarOpen)
+    setActive(!active_)
+  }
 
   return (
     <div>
       <Sidebar
         sidebar={
           <>
-            <h3>MENU</h3>{" "}
+            <h3>MENU</h3>{' '}
             <a href="#aboutme">
               <p>about me</p>
-            </a>{" "}
+            </a>{' '}
             <a href="#skills">
               <p>skills</p>
-            </a>{" "}
+            </a>{' '}
             <a href="#projects">
               <p>projects</p>
             </a>
@@ -45,11 +45,11 @@ const NavBar: React.SFC = () => {
         onSetOpen={onSetSidebarOpen}
         styles={{
           sidebar: {
-            background: "black",
-            color: "yellowgreen",
-            width: "200px",
-            position: "fixed",
-            top: "50px"
+            background: 'black',
+            color: 'yellowgreen',
+            width: '200px',
+            position: 'fixed',
+            top: '50px'
           }
         }}
         pullRight={true}
@@ -57,19 +57,19 @@ const NavBar: React.SFC = () => {
         <div
           onClick={(): void => onSetSidebarOpen()}
           style={{
-            display: "flex",
-            justifyContent: "flex-end",
-            backgroundColor: "black",
-            position: "fixed",
-            top: "0",
-            width: "100%"
+            display: 'flex',
+            justifyContent: 'flex-end',
+            backgroundColor: 'black',
+            position: 'fixed',
+            top: '0',
+            width: '100%'
           }}
         >
           <Slider active={active_} color="yellowgreen" />
         </div>
       </Sidebar>
     </div>
-  );
-};
+  )
+}
 
-export default NavBar;
+export default NavBar

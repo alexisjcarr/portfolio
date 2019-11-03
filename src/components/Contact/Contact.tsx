@@ -1,6 +1,6 @@
-import * as React from "react";
+import * as React from 'react'
 
-import "./Contact.scss";
+import './Contact.scss'
 
 const Contact: React.SFC = () => {
   return (
@@ -33,7 +33,7 @@ const Contact: React.SFC = () => {
         </a>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact

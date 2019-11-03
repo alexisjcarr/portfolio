@@ -1,6 +1,6 @@
-import * as React from "react";
+import * as React from 'react'
 
-import "./Skills.scss";
+import './Skills.scss'
 
 const Skills: React.SFC = () => {
   return (
@@ -71,7 +71,7 @@ const Skills: React.SFC = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Skills;
+export default Skills

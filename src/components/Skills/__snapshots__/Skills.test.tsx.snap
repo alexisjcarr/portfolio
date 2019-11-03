@@ -25,7 +25,10 @@ Object {
                 class="icon fab fa-react"
               />
               <p>
-                React
+                React/
+              </p>
+              <p>
+                Redux
               </p>
             </div>
             <div
@@ -35,7 +38,10 @@ Object {
                 class="icon fab fa-node"
               />
               <p>
-                Node/Express
+                Node/
+              </p>
+              <p>
+                Express
               </p>
             </div>
             <div
@@ -45,15 +51,8 @@ Object {
                 class="icon fab fa-html5"
               />
               <p>
-                HTML
+                HTML/
               </p>
-            </div>
-            <div
-              class="skill"
-            >
-              <i
-                class="icon fab fa-css3-alt"
-              />
               <p>
                 CSS
               </p>
@@ -65,7 +64,10 @@ Object {
                 class="icon fab fa-js-square"
               />
               <p>
-                JavaScript/TypeScript
+                JavaScript/
+              </p>
+              <p>
+                TypeScript
               </p>
             </div>
             <div
@@ -75,7 +77,7 @@ Object {
                 class="icon fab fa-sass"
               />
               <p>
-                Sass
+                Sass/LESS
               </p>
             </div>
             <div
@@ -92,6 +94,26 @@ Object {
               class="skill"
             >
               <i
+                class="icon fas fa-registered"
+              />
+              <p>
+                R
+              </p>
+            </div>
+            <div
+              class="skill"
+            >
+              <i
+                class="icon far fa-window-maximize"
+              />
+              <p>
+                MATLAB
+              </p>
+            </div>
+            <div
+              class="skill"
+            >
+              <i
                 class="icon fab fa-git"
               />
               <p>
@@ -102,10 +124,50 @@ Object {
               class="skill"
             >
               <i
+                class="icon fas fa-flask"
+              />
+              <p>
+                Testing
+              </p>
+            </div>
+            <div
+              class="skill"
+            >
+              <i
+                class="icon fas fa-layer-group"
+              />
+              <p>
+                Redis
+              </p>
+            </div>
+            <div
+              class="skill"
+            >
+              <i
                 class="icon fas fa-database"
               />
               <p>
-                Databases
+                SQL/NoSQL
+              </p>
+            </div>
+            <div
+              class="skill"
+            >
+              <i
+                class="icon fas fa-comments"
+              />
+              <p>
+                Web Sockets
+              </p>
+            </div>
+            <div
+              class="skill"
+            >
+              <i
+                class="icon fab fa-java"
+              />
+              <p>
+                Java
               </p>
             </div>
           </div>
@@ -134,7 +196,10 @@ Object {
               class="icon fab fa-react"
             />
             <p>
-              React
+              React/
+            </p>
+            <p>
+              Redux
             </p>
           </div>
           <div
@@ -144,7 +209,10 @@ Object {
               class="icon fab fa-node"
             />
             <p>
-              Node/Express
+              Node/
+            </p>
+            <p>
+              Express
             </p>
           </div>
           <div
@@ -154,15 +222,8 @@ Object {
               class="icon fab fa-html5"
             />
             <p>
-              HTML
+              HTML/
             </p>
-          </div>
-          <div
-            class="skill"
-          >
-            <i
-              class="icon fab fa-css3-alt"
-            />
             <p>
               CSS
             </p>
@@ -174,7 +235,10 @@ Object {
               class="icon fab fa-js-square"
             />
             <p>
-              JavaScript/TypeScript
+              JavaScript/
+            </p>
+            <p>
+              TypeScript
             </p>
           </div>
           <div
@@ -184,7 +248,7 @@ Object {
               class="icon fab fa-sass"
             />
             <p>
-              Sass
+              Sass/LESS
             </p>
           </div>
           <div
@@ -201,6 +265,26 @@ Object {
             class="skill"
           >
             <i
+              class="icon fas fa-registered"
+            />
+            <p>
+              R
+            </p>
+          </div>
+          <div
+            class="skill"
+          >
+            <i
+              class="icon far fa-window-maximize"
+            />
+            <p>
+              MATLAB
+            </p>
+          </div>
+          <div
+            class="skill"
+          >
+            <i
               class="icon fab fa-git"
             />
             <p>
@@ -211,10 +295,50 @@ Object {
             class="skill"
           >
             <i
+              class="icon fas fa-flask"
+            />
+            <p>
+              Testing
+            </p>
+          </div>
+          <div
+            class="skill"
+          >
+            <i
+              class="icon fas fa-layer-group"
+            />
+            <p>
+              Redis
+            </p>
+          </div>
+          <div
+            class="skill"
+          >
+            <i
               class="icon fas fa-database"
             />
             <p>
-              Databases
+              SQL/NoSQL
+            </p>
+          </div>
+          <div
+            class="skill"
+          >
+            <i
+              class="icon fas fa-comments"
+            />
+            <p>
+              Web Sockets
+            </p>
+          </div>
+          <div
+            class="skill"
+          >
+            <i
+              class="icon fab fa-java"
+            />
+            <p>
+              Java
             </p>
           </div>
         </div>
