@@ -14,7 +14,7 @@ const AboutMe: React.SFC = () => {
         <h1>{`<alexis j. carr/>`}</h1>
         <br />
         <h3>
-          fullstack software engineer | biomedical engineer | slam poet | writer
+          fullstack software engineer | data scientist | biomedical engineer | slam poet | writer
         </h3>
         <br />
         <h3>a perpetual work in progress. i really like turtles.</h3>
