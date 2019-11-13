@@ -36,7 +36,7 @@ const ProjectsList: React.SFC = () => {
         <hr />
         <Project
           projectName="Sauti Africa Market Price Data API"
-          deploymentLink="https://staging-priceapi-sautiafrica.netlify.com/"
+          deploymentLink="https://price-api.sautiafrica.org/"
           githubRepo="https://github.com/orgs/Lambda-School-Labs/teams/labs-17-sauti-africa-market-price-data/repositories"
           role="Fullstack Software Engineer"
           gif={sauti}
