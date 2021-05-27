@@ -20,7 +20,7 @@ const ProjectsList: React.SFC = () => {
   return (
     <div className="container" id="projects">
       <div className="projects-card">
-        <h1>selected projects</h1>
+        <h1>projects</h1>
         <hr />
         <Project
           projectName="Solutions Architecture Samples"

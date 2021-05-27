@@ -8,6 +8,7 @@ const AboutMe: React.SFC = () => {
     <div className="container" id="aboutme">
       <div className="card">
         <h1>about me</h1>
+        <hr />
         <img src={me} alt="profile pic" className="profile-pic" />
         <br />
         <br />

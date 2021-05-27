@@ -7,6 +7,7 @@ const Skills: React.SFC = () => {
     <div className="container" id="skills">
       <div className="skills-card">
         <h1>skills</h1>
+        <hr />
         <div className="skills">
           <div className="skill">
             <i className="icon fab fa-aws"></i>
