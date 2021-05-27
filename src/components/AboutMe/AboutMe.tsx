@@ -14,14 +14,13 @@ const AboutMe: React.SFC = () => {
         <h1>{`<alexis j. carr/>`}</h1>
         <br />
         <h3>
-          fullstack software engineer | data scientist | biomedical engineer | slam poet | writer
+          backend software engineer | solutions architect | biomedical engineer | saxophonist | writer
         </h3>
         <br />
         <h3>a perpetual work in progress. i really like turtles.</h3>
         <br />
         <h4>
-          University of Houston '16 》Texas A&M University '19 》 Lambda School
-          '20
+          University of Houston '16 》Texas A&M University '19
         </h4>
       </div>
     </div>
