@@ -34,10 +34,10 @@ const Skills: React.SFC = () => {
             <i className="icon fas fa-registered"></i>
             <p>R</p>
           </div>
-          <div className="skill">
+          {/* <div className="skill">
             <i className="icon far fa-window-maximize"></i>
             <p>MATLAB</p>
-          </div>
+          </div> */}
           <div className="skill">
             <i className="icon fab fa-git"></i>
             <p>git</p>
