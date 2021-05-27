@@ -14,10 +14,10 @@
     .skills {
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-between;
+      justify-content: center;
 
       @media (max-width: 500px) {
-        justify-content: space-evenly;
+        justify-content: center;
       }
 
       .skill {
