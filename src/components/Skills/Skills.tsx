@@ -8,19 +8,12 @@ const Skills: React.SFC = () => {
       <div className="skills-card">
         <h1>skills</h1>
         <div className="skills">
-<!--           <div className="skill">
-            <i className="icon fab fa-react"></i>
-            <p>React/</p>
-            <p>Redux</p>
-          </div> -->
           <div className="skill">
-            <i class="fab fa-aws"></i>
-            <p>AWS/</p>
-            <p>Solutions Architecture</p>
+            <i className="icon fab fa-aws"></i>
+            <p>AWS</p>
           </div>
           <div className="skill">
-            <i class="fas fa-network-wired"></i>
-            <p>AWS/</p>
+            <i className="icon fas fa-network-wired"></i>
             <p>Systems Design</p>
           </div>
           <div className="skill">
@@ -28,20 +21,11 @@ const Skills: React.SFC = () => {
             <p>Node/</p>
             <p>Express</p>
           </div>
-<!--           <div className="skill">
-            <i className="icon fab fa-html5"></i>
-            <p>HTML/</p>
-            <p>CSS</p>
-          </div> -->
           <div className="skill">
             <i className="icon fab fa-js-square"></i>
             <p>JavaScript/</p>
             <p>TypeScript</p>
           </div>
-<!--           <div className="skill">
-            <i className="icon fab fa-sass"></i>
-            <p>Sass/LESS</p>
-          </div> -->
           <div className="skill">
             <i className="icon fab fa-python"></i>
             <p>Python</p>
@@ -67,7 +51,7 @@ const Skills: React.SFC = () => {
             <p>SQL/NoSQL</p>
           </div>
           <div className="skill">
-            <i class="fab fa-google"></i>
+            <i className="icon fab fa-google"></i>
             <p>Golang</p>
           </div>
           <div className="skill">

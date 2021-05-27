@@ -10,8 +10,8 @@ export interface ProjectProps {
   role: string
   gif?: string
   description: string
-  techStack: string
-  imgClass: string
+  techStack?: string
+  imgClass?: string
 }
 
 const Project: React.SFC<ProjectProps> = ({
@@ -65,8 +65,8 @@ Project.propTypes = {
   role: PropTypes.string.isRequired,
   gif: PropTypes.string,
   description: PropTypes.string.isRequired,
-  techStack: PropTypes.string.isRequired,
-  imgClass: PropTypes.string.isRequired
+  techStack: PropTypes.string,
+  imgClass: PropTypes.string
 }
 
 export default Project

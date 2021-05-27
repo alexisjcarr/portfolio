@@ -3,26 +3,35 @@ import * as React from 'react'
 import Project from './Project'
 
 import sleeptrackr from '../../assets/images/sleeptrackr.gif'
-import demo from '../../assets/images/rtsp.gif'
 import fitness from '../../assets/images/fitness.gif'
-import servable from '../../assets/images/servable2.gif'
 import lol from '../../assets/images/portf.gif'
 import sauti from '../../assets/images/ogImage.jpeg'
 import insuline from '../../assets/images/insuline.gif'
 import zipy from '../../assets/images/zipy.jpg'
 import poster from '../../assets/images/poster.png'
-import npm from '../../assets/images/npm.jpeg'
+import coming_soon from "../../assets/images/coming_soon.jpeg"
 
 import './ProjectsList.scss'
 
 const ProjectsList: React.SFC = () => {
   const sautiDesc =
-    "Still under development. Sauti Africa is a non-profit organization that serves to empower cross border traders by providing real-time market prices, exchange rates, and trade procedures. This web app provides a public-facing data platform that allows for users to access Sauti Africa's market price data. "
+    "Sauti Africa is a non-profit organization that serves to empower cross border traders by providing real-time market prices, exchange rates, and trade procedures. This web app provides a public-facing data platform that allows for users to access Sauti Africa's market price data. "
 
   return (
     <div className="container" id="projects">
       <div className="projects-card">
-        <h1>projects</h1>
+        <h1>selected projects</h1>
+        <hr />
+        <Project
+          projectName="Solutions Architecture Samples"
+          role="Solutions/Systems Architect"
+          description="A collection of systems/solutions architecture write-ups"
+          githubRepo="https://github.com/alexisjcarr/designs"
+          gif={coming_soon}
+          techStack="AWS, draw.io"
+          imgClass="project-img"
+        />
+        <hr />
         <Project
           projectName="this portfolio ;)"
           deploymentLink="https://www.alexisjcarr.com/"
@@ -45,7 +54,7 @@ const ProjectsList: React.SFC = () => {
           imgClass="project-img"
         />
         <hr />
-        <Project
+        {/* <Project
           projectName="macrolimiter"
           deploymentLink="https://www.npmjs.com/package/macrolimiter"
           githubRepo="https://github.com/alexisjcarr/macrolimiter"
@@ -55,7 +64,7 @@ const ProjectsList: React.SFC = () => {
           techStack="Node | Express | Redis"
           imgClass="project-img"
         />
-        <hr />
+        <hr /> */}
         <Project
           projectName="Sleep Tracker"
           deploymentLink="https://sleeptrackr.netlify.com"
@@ -69,7 +78,7 @@ const ProjectsList: React.SFC = () => {
         <hr />
         <Project
           projectName="Grit 'N Grind"
-          deploymentLink="https://gritngrind.fitness/"
+          // deploymentLink="https://gritngrind.fitness/"
           githubRepo="https://github.com/grit-n-grind/client"
           role="Front End Engineer"
           gif={fitness}
@@ -80,7 +89,7 @@ const ProjectsList: React.SFC = () => {
           imgClass="project-img"
         />
         <hr />
-        <Project
+        {/* <Project
           projectName="Servable"
           role="Fullstack Software Engineer"
           gif={servable}
@@ -89,8 +98,8 @@ const ProjectsList: React.SFC = () => {
           techStack="React | React Hooks | Typescript | Node | Express | PostgreSQL"
           imgClass="project-img-servable"
         />
-        <hr />
-        <Project
+        <hr /> */}
+        {/* <Project
           projectName="Real-time Data Renderer"
           deploymentLink="http://realtime-viz-practice.surge.sh/"
           githubRepo="https://github.com/alexisjcarr/socket-io-playground-client"
@@ -100,7 +109,7 @@ const ProjectsList: React.SFC = () => {
           techStack="React | React Hooks | SocketIO"
           imgClass="project-img"
         />
-        <hr />
+        <hr /> */}
         <Project
           projectName="Insuline (Diabetes Manager)"
           deploymentLink="https://diabetesmanager.netlify.com/"
