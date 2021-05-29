@@ -61,7 +61,7 @@ const Skills: React.SFC = () => {
               <p>Golang</p>
             </div>
             <div className="skill">
-              <i className="icon fas fa-terminal"></i>
+              <i className="icon fas fa-window-maximize"></i>
               <p>Bash</p>
             </div>
           </div>
@@ -74,6 +74,10 @@ const Skills: React.SFC = () => {
           <div className="skill">
             <i className="icon fas fa-network-wired"></i>
             <p>Kubernetes</p>
+          </div>
+          <div className="skill">
+            <i className="icon fab fa-docker"></i>
+            <p>Docker</p>
           </div>
           <div className="skill">
             <i className="icon fab fa-node"></i>
@@ -99,6 +103,10 @@ const Skills: React.SFC = () => {
         <hr />
         <h3>Frameworks</h3>
         <div className="skills">
+          <div className="skill">
+          <i className ="icon fas fa-cog"></i>
+          <p>gRPC</p>
+          </div>
           <div className="skill">
           <i className="icon fab fa-react"></i>
           <p>React/Redux</p>

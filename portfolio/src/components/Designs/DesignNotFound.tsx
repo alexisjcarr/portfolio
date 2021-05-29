@@ -1,7 +1,6 @@
 import React from 'react'
 
 import NavBar from '../NavBar'
-import Contact from '../Contact'
 
 import Cat404 from '../../assets/images/FourOhFour.jpeg'
 
