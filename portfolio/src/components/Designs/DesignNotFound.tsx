@@ -23,7 +23,6 @@ const FourOhFour: React.FC = () => (
       </div>
     </div>
     <br />
-    <Contact />
   </div>
 )
 
