@@ -10,6 +10,15 @@
     color: yellowgreen;
     line-height: 1.6;
 
+    img {
+      width: 50%;
+      border: 1px solid yellowgreen;
+
+      @media (max-width: 800px) {
+        width: 70%;
+      }
+    }
+
     h1 {
       @media (max-width: 800px) {
         font-size: 20px;
