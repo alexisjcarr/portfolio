@@ -86,7 +86,7 @@ const Skills: React.SFC = () => {
           </div>
           <div className="skill">
             <i className="icon fas fa-seedling"></i>
-            <p>Sprint Boot</p>
+            <p>Spring Boot</p>
           </div>
           <div className="skill">
             <i className="icon far fa-window-maximize"></i>
