@@ -20,16 +20,13 @@ const NavBar: React.SFC = () => {
         sidebar={
           <>
             <h3>MENU</h3>{' '}
-            <a href="/">
-              <p>home</p>
-            </a>{' '}
-            <a href="#aboutme">
+            <a href="/#aboutme">
               <p>about me</p>
             </a>{' '}
-            <a href="#skills">
+            <a href="/#skills">
               <p>skills</p>
             </a>{' '}
-            <a href="#projects">
+            <a href="/#projects">
               <p>projects</p>
             </a>
             <a href="/designs">
@@ -40,7 +37,7 @@ const NavBar: React.SFC = () => {
               rel="noopener noreferrer">
                 <p>blog</p>
               </a>{' '}
-            <a href="#contact">
+            <a href="/#contact">
               <p>contact</p>
             </a>
             <a

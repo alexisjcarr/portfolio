@@ -16,8 +16,12 @@ const FourOhFour: React.FC = () => (
       <div className="designs-card">
         <br/>
         <br/>
-        <h1>DESIGN NOT COMPLETED YET</h1>
+        <h1>PAGE NOT FOUND</h1>
         <img src={Cat404} />
+        <br />
+        <br />
+        <br />
+        <br />
         <br />
         <br />
       </div>
