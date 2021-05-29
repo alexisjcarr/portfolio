@@ -26,7 +26,7 @@ const ProjectsList: React.SFC = () => {
           projectName="Solutions Architecture Samples"
           role="Solutions/Systems Architect"
           description="A collection of systems/solutions architecture write-ups"
-          githubRepo="https://github.com/alexisjcarr/designs"
+          deploymentLink="/designs"
           gif={coming_soon}
           techStack="AWS, draw.io"
           imgClass="project-img"

@@ -1,4 +1,6 @@
 .container {
+  display: flex;
+  flex-direction: column;
   .skills-card {
     background-color: yellowgreen;
     width: 90%;
@@ -6,8 +8,15 @@
     color: black;
 
     h1 {
-      @media (max-width: 500px) {
+      @media (max-width: 800px) {
         font-size: 20px;
+      }
+    }
+
+    h3 {
+      text-decoration: underline;
+      @media (max-width: 800px) {
+        font-size: 15px;
       }
     }
 
@@ -16,7 +25,7 @@
       flex-wrap: wrap;
       justify-content: center;
 
-      @media (max-width: 500px) {
+      @media (max-width: 800px) {
         justify-content: center;
       }
 
@@ -25,7 +34,7 @@
         margin: 20px;
 
         p {
-          @media (max-width: 500px) {
+          @media (max-width: 800px) {
             font-size: 10px;
           }
         }
@@ -33,12 +42,12 @@
         .icon {
           font-size: 150px;
 
-          @media (max-width: 500px) {
+          @media (max-width: 800px) {
             font-size: 80px;
           }
         }
 
-        @media (max-width: 500px) {
+        @media (max-width: 800px) {
           padding: 0px;
           margin: 5px;
         }

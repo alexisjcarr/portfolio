@@ -6,7 +6,6 @@ const Contact: React.SFC = () => {
   return (
     <div className="container" id="contact">
       <div className="contact-card">
-        <h3>contact</h3>
         <a
           href="https://www.linkedin.com/in/alexis-j-carr"
           target="_blank"

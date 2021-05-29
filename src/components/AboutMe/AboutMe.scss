@@ -19,7 +19,7 @@
       line-height: 1.6;
     }
 
-    @media (max-width: 500px) {
+    @media (max-width: 800px) {
       h1 {
         font-size: 20px;
       }
@@ -42,7 +42,7 @@
       border: 5px solid yellowgreen;
       margin-top: 20px;
 
-      @media (max-width: 500px) {
+      @media (max-width: 800px) {
         height: 50%;
         width: 50%;
       }

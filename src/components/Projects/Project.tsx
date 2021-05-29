@@ -24,6 +24,9 @@ const Project: React.SFC<ProjectProps> = ({
   techStack,
   imgClass
 }) => {
+  const deploymentIcon = deploymentLink ? <i className="iconP fas fa-link"></i> : null
+  const githubIcon = githubRepo ? <i className="iconP fab fa-github"></i> : null
+ 
   return (
     <>
       <br />
@@ -31,10 +34,10 @@ const Project: React.SFC<ProjectProps> = ({
         <h3>
           {projectName}{' '}
           <a href={deploymentLink} target="_blank" rel="noopener noreferrer">
-            <i className="iconP fas fa-link"></i>
+            {deploymentIcon}
           </a>{' '}
           <a href={githubRepo} target="_blank" rel="noopener noreferrer">
-            <i className="iconP fab fa-github"></i>
+            {githubIcon}
           </a>
         </h3>
         <p>

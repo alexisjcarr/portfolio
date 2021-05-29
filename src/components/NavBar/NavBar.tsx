@@ -20,6 +20,9 @@ const NavBar: React.SFC = () => {
         sidebar={
           <>
             <h3>MENU</h3>{' '}
+            <a href="/">
+              <p>home</p>
+            </a>{' '}
             <a href="#aboutme">
               <p>about me</p>
             </a>{' '}
@@ -29,6 +32,14 @@ const NavBar: React.SFC = () => {
             <a href="#projects">
               <p>projects</p>
             </a>
+            <a href="/designs">
+              designs
+            </a>{' '}
+            <a href="https://medium.com/@acarr59"
+              target="_blank"
+              rel="noopener noreferrer">
+                <p>blog</p>
+              </a>{' '}
             <a href="#contact">
               <p>contact</p>
             </a>

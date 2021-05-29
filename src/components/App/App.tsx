@@ -1,26 +1,15 @@
 import React from 'react'
+import { Route } from 'react-router-dom'
 
-import NavBar from '../NavBar'
-import AboutMe from '../AboutMe'
-import Skills from '../Skills'
-import Projects from '../Projects'
-import Contact from '../Contact'
+import MainPage from '../MainPage'
+import Designs from '../Designs'
 
 import './App.scss'
 
 const App: React.FC = () => (
-  <div className="App">
-    <NavBar />
-    <AboutMe />
-    <br />
-    <br />
-    <Skills />
-    <br />
-    <br />
-    <Projects />
-    <br />
-    <br />
-    <Contact />
+  <div className='App'>
+    <Route exact path='/' component={MainPage} />
+    <Route path='/designs' component={Designs} />
   </div>
 )
 

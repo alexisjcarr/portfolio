@@ -7,14 +7,14 @@
     line-height: 1.6;
 
     h1 {
-      @media (max-width: 500px) {
+      @media (max-width: 800px) {
         font-size: 20px;
       }
     }
 
     .project {
       h3 {
-        @media (max-width: 500px) {
+        @media (max-width: 800px) {
           font-size: 13px;
         }
       }
@@ -22,7 +22,7 @@
       .iconP {
         font-size: 30px;
 
-        @media (max-width: 500px) {
+        @media (max-width: 800px) {
           font-size: 15px;
         }
       }
@@ -30,7 +30,7 @@
       p {
         margin: 10px;
 
-        @media (max-width: 500px) {
+        @media (max-width: 800px) {
           font-size: 10px;
         }
       }
@@ -39,7 +39,7 @@
         width: 50%;
         border: 1px solid yellowgreen;
 
-        @media (max-width: 500px) {
+        @media (max-width: 800px) {
           width: 70%;
         }
       }
@@ -48,7 +48,7 @@
         width: 20%;
         border: 1px solid yellowgreen;
 
-        @media (max-width: 500px) {
+        @media (max-width: 800px) {
           width: 50%;
         }
       }

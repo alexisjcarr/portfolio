@@ -1,0 +1,32 @@
+.designs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  .designs-card {
+    background-color: black;
+    width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: yellowgreen;
+    line-height: 1.6;
+
+    h1 {
+      @media (max-width: 800px) {
+        font-size: 20px;
+      }
+    }
+  
+    p {
+      margin: 20px;
+      text-align: justify;
+      @media (max-width: 800px) {
+        font-size: 10px;
+      }
+
+      #icon {
+        font-size: larger;
+      }
+    }
+  }
+
+}
