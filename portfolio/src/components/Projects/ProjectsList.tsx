@@ -10,6 +10,7 @@ import insuline from '../../assets/images/insuline.gif'
 import zipy from '../../assets/images/zipy.jpg'
 import poster from '../../assets/images/poster.png'
 import coming_soon from "../../assets/images/coming_soon.jpeg"
+import abb from '../../assets/images/abb.gif'
 
 import './ProjectsList.scss'
 
@@ -30,6 +31,16 @@ const ProjectsList: React.SFC = () => {
           gif={coming_soon}
           techStack="AWS, draw.io"
           imgClass="project-img"
+        />
+        <hr />
+        <Project 
+          projectName='Angry Beanie Babies'
+          githubRepo="https://github.com/alexisjcarr/angrybeaniebabies"
+          role='Game Developer'
+          description='Still under development. A simple two player game where each of the two players tries to shoot down the other one. Currently working on refactoring and making an AI player for a single player experience.'
+          gif={abb}
+          techStack='Python, pygame'
+          imgClass='project-img'
         />
         <hr />
         <Project
