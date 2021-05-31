@@ -39,7 +39,7 @@ const ChatApp: React.FC = () => (
             <br />
         <p><h2>II. Scope</h2></p>
             <p>
-                The current design will only support web browser clients, since the game will be a browser only game. However, if this game were to support mobile clients, in the future the only change to the design woulf be the additions of the appropriate client and <a href="https://samnewman.io/patterns/architectural/bff/">BFF</a> codebases.
+                The current design will only support web browser clients, since the game will be a browser only game. However, if this game were to support mobile clients, in the future the only change to the design would be the additions of the appropriate client and <a href="https://samnewman.io/patterns/architectural/bff/">BFF</a> codebases.
             </p>
             <p>
                 This design will also include a 3rd party OAuth system for authentication and authorization.
