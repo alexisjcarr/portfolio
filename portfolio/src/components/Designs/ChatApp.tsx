@@ -50,7 +50,7 @@ const ChatApp: React.FC = () => (
             <br />
         <p><h2>III. Scale</h2></p>
             <p>
-                Like most chat applications, this one will likely be both read and write heavy. To mitigate the problems with latency this could cause at scale, I would recommend to implement a <a href="https://en.wikipedia.org/wiki/Consistent_hashing#Basic_Technique" rel="noreferrer noopener" target="blank">consistent hashing strategy</a> at the load balancer level. This will allow for the addition of a light in-memory cache, such as Memcached, that'll lower the need to go grab message history from the database.
+                Like most chat applications, this one will likely be both read and write heavy. To mitigate the problems with latency this could cause at scale, I designed the load balancing layer to implement a <a href="https://en.wikipedia.org/wiki/Consistent_hashing#Basic_Technique" rel="noreferrer noopener" target="blank">consistent hashing strategy</a>. This will allow for the addition of a light in-memory cache, such as Memcached, that'll lower the need to go grab message history from the database.
             </p>
             <p>
                 At this time, there is no plan to handle DDoS or any attack of that sort, but adding load balancing would be trivial if it were needed in the future. 
