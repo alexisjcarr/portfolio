@@ -83,7 +83,7 @@ const ChatApp: React.FC = () => (
             <br />
         <p><h3>Database</h3></p>
             <p>
-                The database would be for storing chat logs by session id. Since this isn't overly relational data, NoSQL document-type databases would be useful here. Additionally, since it is good practice to design NoSQL solutions to conform to the application's data access patterns, lookups will be faster too.
+                The database stores chat logs by session id. Since this isn't overly relational data, NoSQL document-type databases would be useful here. Additionally, since it is good practice to design NoSQL solutions to conform to the application's data access patterns, lookups will be faster too.
             </p>
             <p>
                 One problem I wanted to be mindful of should we go with a self-managed database solution to save money is how we'll handle both scaling reads and making our database solution fault-tolerant and highly available. In this regard, having a leader-replica configuration should work here. For a single region deployment, one leader with two replicas in different availability zones is more than sufficient.
