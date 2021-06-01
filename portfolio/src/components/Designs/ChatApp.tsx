@@ -45,7 +45,7 @@ const ChatApp: React.FC = () => (
                 This design will also include a 3rd party OAuth system for authentication and authorization.
             </p>
             <p>
-                Although, analytics, logging and monitoring are out of the scope of this design, I will strongly recommend for my friend both 1) to implement Google Analytics to get frontend metrics and 2) to consider the addition of the ELK stack or Splunk for log management and a tool such as DataDog or AWS CloudWatch for monitoring and metrics. 
+                Although, analytics, logging and monitoring are out of the scope of this design, I will strongly recommend for my friend both 1. to implement Google Analytics to get frontend metrics and 2. to consider the addition of the ELK stack or Splunk for log management and a tool such as DataDog or AWS CloudWatch for monitoring and metrics. 
             </p>
             <br />
         <p><h2>III. Scale</h2></p>
@@ -57,17 +57,45 @@ const ChatApp: React.FC = () => (
             </p>
             <br />
         <p><h2>IV. Design</h2></p>
-            <p>
-                This is the first pass design for the chat application. Static UI assets will be served by a CDN. Calls to the OAuth external service will be handled by the BFF. 
-            </p>
-            <p>
-                Once a user is authorized, they are sent to a page where they can then initiate a chat session and invite a friend to the session. The initiating of the chat session is handled by the Chat Service by 1) sending back a shareable link to the chat session and session id (both of which the user can share with a friend) and 2) opening a bi-directional communication channel for the client to communicate with the service.
-            </p>
-            <p>
-                Chat logs will be persisted to the database and to the client-side cache.
-            </p>
+            <br />
             <img src={design} />
+            <br />
+            <p><h3>Frontend</h3></p>
+                <p>
+                    I've designed for the static assets of the system to be deployed to blob storage. This will be delivered to end users via a CDN distribution.
+                </p>
+                <p>
+                    Additionally, I've decided to abstract UI logic from data fetching by implementing a BFF behind the static assets. The BFF will be in charge of both interacting with the service layer and calling the external OAuth provider. Once a user is authorized, they are sent to a page where they can then initiate a chat session and invite a friend to the session.
+                </p>
+                <br />
+            <p><h3>Load Balancers</h3></p>
+                <p>
+                    The load balancing layer acts as a reverse proxy for the chat service. To prevent the chat service from being a point of failure at scale, I designed for the service layer to be horizontally scalable. Furthermore, I designed the load balancing layer to implement a consistent hashing strategy with users with the same session id being routed to the same server. Since this helps us avoid the problem of servers being reassigned to users as servers are both added and removed from the cluster, we can add an in-memory cache, such as Memcached, that'll lower the need to go grab message history from the database.
+                </p>
+                <br />
+            <p><h3>More about Chat Service</h3></p>
+            <p>
+                After a user initiates a new chat on via the browser, chat service opens a bi-directional communication channel for the BFF to communicate with the service. I chose this method instead of polling, because the latter would put considerable load on our server at scale. Additionally by keeping an open connection, we will likely experience lower latencies.
+            </p>
+            <p>
+                Once a friend joins the chat session, chat service will also open a bi-di channel for them. After one user types "hello world!" and clicks send, the message will go through the LB proxy to user's bi-di channel to the server and then through the friend's bi-di channel then through the LB proxy to their client. The chat service servers will also cache the messages (for chat participants coming in later), as will the BFF.
+            </p>
+            <br />
+        <p><h3>Database</h3></p>
+            <p>
+                The database would be for storing chat logs by session id. Since this isn't overly relational data, NoSQL document-type databases would be useful here. Additionally, since it is good practice to design NoSQL solutions to conform to the application's data access patterns, lookups will be faster too.
+            </p>
+            <p>
+                One problem I wanted to be mindful of should we go with a self-managed database solution to save money is how we'll handle both scaling reads and making our database solution fault-tolerant and highly available. In this regard, having a leader-replica configuration should work here. For a single region deployment, one leader with two replicas in different availability zones is more than sufficient.
+            </p>
+            <p>
+                For managing failover, I think using something like Zookeeper or etcd to manage leader election should be more than sufficient. We could even add in ProxySQL to handle delegating reads and writes, but adding that in the service configs/logic would be a smaller lift.
+            </p>
         <br />
+        <p><h2>V. Concluding Thoughts</h2></p>
+                <p>
+                   My friend and I are actually going to build this, so stay tuned... 
+                </p>
         <br />
       </div>
     </div>
