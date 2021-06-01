@@ -70,7 +70,7 @@ const ChatApp: React.FC = () => (
                 <br />
             <p><h3>Load Balancers</h3></p>
                 <p>
-                    The load balancing layer acts as a reverse proxy for the chat service. To prevent the chat service from being a point of failure at scale, I designed for the service layer to be horizontally scalable. Furthermore, I designed the load balancing layer to implement a <a href="https://en.wikipedia.org/wiki/Consistent_hashing#Basic_Technique" rel="noreferrer noopener" target="blank">consistent hashing strategy</a> with users with the same session id being routed to the same server. Since this helps us avoid the problem of servers being reassigned to users as servers are both added and removed from the cluster, we can add an in-memory cache, such as Memcached, that'll lower the need to go grab message history from the database.
+                    The load balancing layer acts as a reverse proxy for the chat service. To prevent the chat service from becoming a point of failure at scale, I designed for the service layer to be horizontally scalable. Furthermore, I designed the load balancing layer to implement a <a href="https://en.wikipedia.org/wiki/Consistent_hashing#Basic_Technique" rel="noreferrer noopener" target="blank">consistent hashing strategy</a> with users with the same session id being routed to the same server. Since this helps us avoid the problem of servers being reassigned to users as servers are both added and removed from the cluster, we can add an in-memory cache, such as Memcached, that'll lower the need to go grab message history from the database.
                 </p>
                 <br />
             <p><h3>More about Chat Service</h3></p>
