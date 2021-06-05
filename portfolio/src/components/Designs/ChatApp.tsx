@@ -39,13 +39,13 @@ const ChatApp: React.FC = () => (
             <br />
         <p><h2>II. Scope</h2></p>
             <p>
-                The current design will only support web browser clients, since the game will be a browser only game. However, if this game were to support mobile clients in the future, the only change to the design would be the additions of the appropriate client and <a href="https://samnewman.io/patterns/architectural/bff/">backend-for-frontend (BFF)</a> codebases.
+                The current design will only support web browser clients, since the game will be a browser only game. However, if this game were to support mobile clients in the future, the only change to the design would be the additions of the appropriate client and <a href="https://samnewman.io/patterns/architectural/bff/" rel="noreferrer noopener" target="blank">backend-for-frontend (BFF)</a> codebases.
             </p>
             <p>
                 This design will also include a 3rd party OAuth system for authentication and authorization.
             </p>
             <p>
-                Although, analytics, logging, and monitoring are not explained in detail this design, I would use 1) <a href="https://analytics.google.com/analytics/">Google Analytics</a> to get frontend metrics, 2) the <a href="https://www.elastic.co/what-is/elk-stack">ELK</a> stack or <a href="https://www.splunk.com/">Splunk</a> for log management, and 3) a tool such as <a href="https://www.datadoghq.com/">DataDog</a> or <a href="https://aws.amazon.com/cloudwatch/">AWS CloudWatch</a> for monitoring and metrics. 
+                Although, analytics, logging, and monitoring are not explained in detail this design, I would use 1) <a href="https://analytics.google.com/analytics/" rel="noreferrer noopener" target="blank">Google Analytics</a> to get frontend metrics, 2) the <a href="https://www.elastic.co/what-is/elk-stack" rel="noreferrer noopener" target="blank">ELK</a> stack or <a href="https://www.splunk.com/" rel="noreferrer noopener" target="blank">Splunk</a> for log management, and 3) a tool such as <a href="https://www.datadoghq.com/" rel="noreferrer noopener" target="blank">DataDog</a> or <a href="https://aws.amazon.com/cloudwatch/" rel="noreferrer noopener" target="blank">AWS CloudWatch</a> for monitoring and metrics. 
             </p>
             <br />
         <p><h2>III. Scale</h2></p>
@@ -72,7 +72,7 @@ const ChatApp: React.FC = () => (
                 <br />
             <p><h3>More about Chat Service</h3></p>
             <p>
-                After a user initiates a new chat via their browser, the chat service opens a bi-directional communication channel for the BFF to communicate with the service. I chose this method instead of <a href="https://ably.com/blog/websockets-vs-long-polling">long polling</a>, because the latter would put considerable load on our servers at scale. Additionally, by keeping an open connection, we will likely experience lower latencies for the transfer of messages.
+                After a user initiates a new chat via their browser, the chat service opens a bi-directional communication channel for the BFF to communicate with the service. I chose this method instead of <a href="https://ably.com/blog/websockets-vs-long-polling" rel="noreferrer noopener" target="blank">long polling</a>, because the latter would put considerable load on our servers at scale. Additionally, by keeping an open connection, we will likely experience lower latencies for the transfer of messages.
             </p>
             <p>
                 Once a friend joins the chat session, chat service will also open a bi-di channel for them. After one user types "hello world!" and clicks send, the message will go through the LB proxy, to user's bi-di channel, to the server, and then through the friend's bi-di channel, through the LB proxy to finally reach their client. The chat service servers will also cache the messages in memory (for chat participants coming in later), as will the BFF.
@@ -83,15 +83,15 @@ const ChatApp: React.FC = () => (
                 The database stores chat logs by session id. Since this isn't overly relational data, NoSQL document-type databases would be useful here. Additionally, since it is good practice to design NoSQL solutions to conform to the application's data access patterns, lookups will be faster, as well.
             </p>
             <p>
-                One problem I wanted to be mindful of should we go with a self-managed database solution (to save money, haha) is how we'll handle both scaling reads and making our database solution fault-tolerant and highly available. In this regard, having a leader-replica configuration should work. For a single region deployment, one leader with two replicas in different availability zones is more than sufficient. We could even add in a NoSQL tool equivalent to that of <a href="https://proxysql.com/">ProxySQL</a> to handle delegating all writes to the leader and reads to the replicas, but adding that in the service configs/logic would likely be a smaller lift.
+                One problem I wanted to be mindful of should we go with a self-managed database solution (to save money, haha) is how we'll handle both scaling reads and making our database solution fault-tolerant and highly available. In this regard, having a leader-replica configuration should work. For a single region deployment, one leader with two replicas in different availability zones is more than sufficient. We could even add in a NoSQL tool equivalent to that of <a href="https://proxysql.com/" rel="noreferrer noopener" target="blank">ProxySQL</a> to handle delegating all writes to the leader and reads to the replicas, but adding that in the service configs/logic would likely be a smaller lift.
             </p>
             <p>
-                For managing failover, I would either use a key-value store like <a href="https://zookeeper.apache.org/">Zookeeper</a> or <a href="https://etcd.io/">etcd</a>, or a NoSQL equivalent to <a href="https://www.percona.com/blog/2016/03/08/orchestrator-mysql-replication-topology-manager/">orchestrator</a> to manage leader election. 
+                For managing failover, I would either use a key-value store like <a href="https://zookeeper.apache.org/" rel="noreferrer noopener" target="blank">Zookeeper</a> or <a href="https://etcd.io/" rel="noreferrer noopener" target="blank">etcd</a>, or a NoSQL equivalent to <a href="https://www.percona.com/blog/2016/03/08/orchestrator-mysql-replication-topology-manager/" rel="noreferrer noopener" target="blank">orchestrator</a> to manage leader election. 
             </p>
         <br />
         <p><h2>V. Concluding Thoughts</h2></p>
                 <p>
-                   My friend and I are actually going to build this. Friend is going to develop the game. I'll port in chat functionality and design the rest of the infratructure. We don't have $100 mil, so I'm probably going to nix the database in favor of a more ephemeral chat experience. Additionally, I'll likely switch out the load balancers for an Envoy reverse proxy if I decide to use <a href="https://grpc.io/">gRPC</a> for the chat service. But everything else will still be handled as I described! STAY TUNED.
+                   My friend and I are actually going to build this. Friend is going to develop the game. I'll port in chat functionality and design the rest of the infratructure. We don't have $100 mil, so I'm probably going to nix the database in favor of a more ephemeral chat experience. Additionally, I'll likely switch out the load balancers for an Envoy reverse proxy if I decide to use <a href="https://grpc.io/" rel="noreferrer noopener" target="blank">gRPC</a> for the chat service. But everything else will still be handled as I described! STAY TUNED.
                 </p>
         <br />
       </div>
