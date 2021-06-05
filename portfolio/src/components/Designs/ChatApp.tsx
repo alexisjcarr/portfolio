@@ -45,7 +45,7 @@ const ChatApp: React.FC = () => (
                 This design will also include a 3rd party OAuth system for authentication and authorization.
             </p>
             <p>
-                Although, analytics, logging, and monitoring are not explained in detail this design, I would 1) implement <a href="https://analytics.google.com/analytics/">Google Analytics</a> to get frontend metrics, 2) use the <a href="https://www.elastic.co/what-is/elk-stack">ELK</a> stack or <a href="https://www.splunk.com/">Splunk</a> for log management, and 3) a tool such as <a href="https://www.datadoghq.com/">DataDog</a> or <a href="https://aws.amazon.com/cloudwatch/">AWS CloudWatch</a> for monitoring and metrics. 
+                Although, analytics, logging, and monitoring are not explained in detail this design, I would use 1) <a href="https://analytics.google.com/analytics/">Google Analytics</a> to get frontend metrics, 2) the <a href="https://www.elastic.co/what-is/elk-stack">ELK</a> stack or <a href="https://www.splunk.com/">Splunk</a> for log management, and 3) a tool such as <a href="https://www.datadoghq.com/">DataDog</a> or <a href="https://aws.amazon.com/cloudwatch/">AWS CloudWatch</a> for monitoring and metrics. 
             </p>
             <br />
         <p><h2>III. Scale</h2></p>
