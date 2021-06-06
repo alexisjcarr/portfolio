@@ -41,7 +41,7 @@ const NavBar: React.SFC = () => {
               <p>contact</p>
             </a>
             <a
-              href="https://drive.google.com/uc?exportexport=download&id=148nx-0y45fKz3HSHh64EmkeshYTPHAKP"
+              href="https://drive.google.com/uc?export=download&id=1XDEZLHoiDIBt7g1019xQeW-CfRQFuyCo"
               target="_blank"
               rel="noopener noreferrer"
             >
