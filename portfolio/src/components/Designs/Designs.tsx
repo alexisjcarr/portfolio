@@ -25,7 +25,7 @@ const Designs: React.FC = () => (
         <br/>
         <br/>
         <p>Hello world! Welcome to my corner of the internet.</p>
-        <p>Soon, I will start compiling systems designs and solutions architectures that I come up with in my free time. I am currently working on the following designs. When one is in progress, I will add a <span id="icon" role="img" aria-label="hourglass">⏳</span> next to the link. When one is ready, I will add a <span id="icon" role="img" aria-label="checkmark">✅</span> next to it. STAY TUNED!</p>
+        <p>I'm using this page to compile systems designs and solutions architectures that I come up with in my free time. I am currently working on the following designs. When one is in progress, I will add a <span id="icon" role="img" aria-label="hourglass">⏳</span> next to the link. When one is ready, I will add a <span id="icon" role="img" aria-label="checkmark">✅</span> next to it. STAY TUNED!</p>
         <br />
         <br />
         <a href="/designs/chat-app">
