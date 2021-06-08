@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Cartoon from '../../assets/images/cartoon.jpeg'
+import Lol from '../../assets/images/lol.jpeg'
 
 import '../App/App.scss'
 import './Designs.scss'
@@ -21,6 +22,9 @@ const Designs: React.FC = () => (
         <br/>
         <img src={Cartoon} />
         <br/>
+        <br/>
+        <br/>
+        <img src={Lol} />
         <br/>
         <br/>
         <br/>
