@@ -9,7 +9,8 @@ import sauti from '../../assets/images/ogImage.jpeg'
 import insuline from '../../assets/images/insuline.gif'
 import zipy from '../../assets/images/zipy.jpg'
 import poster from '../../assets/images/poster.png'
-import coming_soon from "../../assets/images/coming_soon.jpeg"
+import cartoon from "../../assets/images/cartoon.jpeg"
+import wip from "../../assets/images/coming_soon.jpeg"
 import abb from '../../assets/images/abb.gif'
 
 import './ProjectsList.scss'
@@ -28,8 +29,17 @@ const ProjectsList: React.SFC = () => {
           role="Solutions/Systems Architect"
           description="A collection of systems/solutions architecture write-ups"
           deploymentLink="/designs"
-          gif={coming_soon}
+          gif={cartoon}
           techStack="AWS, draw.io"
+          imgClass="project-img"
+        />
+        <hr />
+        <Project
+          projectName="QUIC-gRPC"
+          role="Backend Engineer"
+          description="Still under development. gRPC is a modern open source high performance Remote Procedure Call (RPC) framework that can run in any environment. The current implementations of gRPC use HTTP/2 as the transport protocol. This project aims to replace HTTP/2 with QUIC in the Go implementation of gRPC."
+          gif={wip}
+          techStack="Go"
           imgClass="project-img"
         />
         <hr />

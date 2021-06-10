@@ -19,7 +19,7 @@ const ChatApp: React.FC = () => (
     <div className="designs-container">
       <div className="designs-card">
         <br />
-        <h1> CHAT APP </h1>
+        <h1> CHAT APP [WORK IN PROGRESS]</h1>
         <p><h2>I. Understanding the Goals</h2></p>
             <p>
                The goal of this post is to describe the design of a chat application that can be used by an online multiplayer game that my friend is building. Although, the following design is for scale, I mostly designed this for the mental challenge, and we will build this on a much smaller (and less distributed) scale.
