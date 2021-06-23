@@ -61,6 +61,10 @@ const Skills: React.SFC = () => {
               <p>Golang</p>
             </div>
             <div className="skill">
+              <i className="icon fas fa-microchip"></i>
+              <p>C++</p>
+            </div>
+            <div className="skill">
               <i className="icon fas fa-window-maximize"></i>
               <p>Bash</p>
             </div>
